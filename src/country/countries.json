@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Brasil",
+    "wue": 4.91,
+    "carbon_intensity": 98.348
+  },
+  {
+    "id": 2,
+    "name": "França",
+    "wue": 0.97,
+    "carbon_intensity": 56.039
+  },
+  {
+    "id": 3,
+    "name": "Estados Unidos",
+    "wue": 0.83,
+    "carbon_intensity": 369.473
+  }
+]
