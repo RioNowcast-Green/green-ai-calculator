@@ -1,20 +1,284 @@
 [
-  {
-    "id": 1,
-    "name": "Brasil",
-    "wue": 4.91,
-    "carbon_intensity": 98.348
-  },
-  {
-    "id": 2,
-    "name": "França",
-    "wue": 0.97,
-    "carbon_intensity": 56.039
-  },
-  {
-    "id": 3,
-    "name": "Estados Unidos",
-    "wue": 0.83,
-    "carbon_intensity": 369.473
-  }
+    {
+        "id": 1,
+        "name": "Argentina",
+        "wue": "3.03",
+        "carbon_intensity": "354.103"
+    },
+    {
+        "id": 2,
+        "name": "Australia",
+        "wue": "1.25",
+        "carbon_intensity": "548.692"
+    },
+    {
+        "id": 3,
+        "name": "Austria",
+        "wue": "1.51",
+        "carbon_intensity": "110.812"
+    },
+    {
+        "id": 4,
+        "name": "Belgium",
+        "wue": "0.69",
+        "carbon_intensity": "138.107"
+    },
+    {
+        "id": 5,
+        "name": "Brazil",
+        "wue": "4.91",
+        "carbon_intensity": "98.348"
+    },
+    {
+        "id": 6,
+        "name": "Bulgaria",
+        "wue": "1.22",
+        "carbon_intensity": "335.334"
+    },
+    {
+        "id": 7,
+        "name": "Canada",
+        "wue": "2.16",
+        "carbon_intensity": "170.043"
+    },
+    {
+        "id": 8,
+        "name": "Chile",
+        "wue": "2.78",
+        "carbon_intensity": "291.113"
+    },
+    {
+        "id": 9,
+        "name": "China",
+        "wue": "1.59",
+        "carbon_intensity": "582.317"
+    },
+    {
+        "id": 10,
+        "name": "Cyprus",
+        "wue": "0.34",
+        "carbon_intensity": "534.323"
+    },
+    {
+        "id": 11,
+        "name": "CzechRepublic",
+        "wue": "0.85",
+        "carbon_intensity": "449.724"
+    },
+    {
+        "id": 12,
+        "name": "Denmark",
+        "wue": "0.84",
+        "carbon_intensity": "151.650"
+    },
+    {
+        "id": 13,
+        "name": "Estonia",
+        "wue": "0.58",
+        "carbon_intensity": "416.667"
+    },
+    {
+        "id": 14,
+        "name": "Finland",
+        "wue": "1.20",
+        "carbon_intensity": "79.158"
+    },
+    {
+        "id": 15,
+        "name": "France",
+        "wue": "0.97",
+        "carbon_intensity": "56.039"
+    },
+    {
+        "id": 16,
+        "name": "Germany",
+        "wue": "0.51",
+        "carbon_intensity": "380.950"
+    },
+    {
+        "id": 17,
+        "name": "GreatBritain",
+        "wue": "0.62",
+        "carbon_intensity": "237.589"
+    },
+    {
+        "id": 18,
+        "name": "Greece",
+        "wue": "1.36",
+        "carbon_intensity": "336.574"
+    },
+    {
+        "id": 19,
+        "name": "Hungary",
+        "wue": "0.97",
+        "carbon_intensity": "204.190"
+    },
+    {
+        "id": 20,
+        "name": "India",
+        "wue": "0.91",
+        "carbon_intensity": "713.441"
+    },
+    {
+        "id": 21,
+        "name": "Indonesia",
+        "wue": "0.60",
+        "carbon_intensity": "675.931"
+    },
+    {
+        "id": 22,
+        "name": "Ireland",
+        "wue": "0.39",
+        "carbon_intensity": "290.805"
+    },
+    {
+        "id": 23,
+        "name": "Italy",
+        "wue": "1.28",
+        "carbon_intensity": "330.718"
+    },
+    {
+        "id": 24,
+        "name": "Japan",
+        "wue": "0.61",
+        "carbon_intensity": "485.392"
+    },
+    {
+        "id": 25,
+        "name": "Latvia",
+        "wue": "0.67",
+        "carbon_intensity": "123.200"
+    },
+    {
+        "id": 26,
+        "name": "Lithuania",
+        "wue": "1.56",
+        "carbon_intensity": "160.072"
+    },
+    {
+        "id": 27,
+        "name": "Luxembourg",
+        "wue": "3.38",
+        "carbon_intensity": "105.263"
+    },
+    {
+        "id": 28,
+        "name": "Malaysia",
+        "wue": "0.44",
+        "carbon_intensity": "605.831"
+    },
+    {
+        "id": 29,
+        "name": "Malta",
+        "wue": "0.30",
+        "carbon_intensity": "459.144"
+    },
+    {
+        "id": 30,
+        "name": "Mexico",
+        "wue": "1.40",
+        "carbon_intensity": "507.245"
+    },
+    {
+        "id": 31,
+        "name": "Netherlands",
+        "wue": "0.91",
+        "carbon_intensity": "267.622"
+    },
+    {
+        "id": 32,
+        "name": "NewZealand",
+        "wue": "3.95",
+        "carbon_intensity": "112.758"
+    },
+    {
+        "id": 33,
+        "name": "Norway",
+        "wue": "1.76",
+        "carbon_intensity": "30.080"
+    },
+    {
+        "id": 34,
+        "name": "Poland",
+        "wue": "0.66",
+        "carbon_intensity": "661.926"
+    },
+    {
+        "id": 35,
+        "name": "Portugal",
+        "wue": "2.53",
+        "carbon_intensity": "165.553"
+    },
+    {
+        "id": 36,
+        "name": "Romania",
+        "wue": "1.94",
+        "carbon_intensity": "240.583"
+    },
+    {
+        "id": 37,
+        "name": "Russia",
+        "wue": "0.91",
+        "carbon_intensity": "441.039"
+    },
+    {
+        "id": 38,
+        "name": "Slovakia",
+        "wue": "1.53",
+        "carbon_intensity": "116.774"
+    },
+    {
+        "id": 39,
+        "name": "Slovenia",
+        "wue": "0.79",
+        "carbon_intensity": "231.275"
+    },
+    {
+        "id": 40,
+        "name": "SouthKorea",
+        "wue": "0.50",
+        "carbon_intensity": "430.567"
+    },
+    {
+        "id": 41,
+        "name": "Spain",
+        "wue": "1.64",
+        "carbon_intensity": "174.050"
+    },
+    {
+        "id": 42,
+        "name": "Sweden",
+        "wue": "1.59",
+        "carbon_intensity": "40.695"
+    },
+    {
+        "id": 43,
+        "name": "Switzerland",
+        "wue": "1.50",
+        "carbon_intensity": "34.843"
+    },
+    {
+        "id": 44,
+        "name": "Thailand",
+        "wue": "0.76",
+        "carbon_intensity": "549.583"
+    },
+    {
+        "id": 45,
+        "name": "Turkey",
+        "wue": "1.30",
+        "carbon_intensity": "464.586"
+    },
+    {
+        "id": 46,
+        "name": "Ukraine",
+        "wue": "0.56",
+        "carbon_intensity": "259.693"
+    },
+    {
+        "id": 47,
+        "name": "UnitedStates",
+        "wue": "20.8",
+        "carbon_intensity": "369.473"
+    }
 ]
