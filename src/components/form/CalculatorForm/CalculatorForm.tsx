@@ -56,12 +56,12 @@ const CalculatorForm = () => {
     const tdp = processor?.tdp / 1000 || 0; // kw
     const onSiteWUE = body.onSiteWUE || 0;
     const waterOffSiteWUE = country?.wue * 3.785 || 0; // L/kWh
-    const carbon_intensity = country?.carbon_intensity || 0;
+    const carbon_intensity = Number(country?.carbon_intensity) / 1000 || 0;
 
     const energy_consumed = time * tdp * pue;
     const carbon_footprint = energy_consumed * carbon_intensity; // kgCO2e
     const water_consumed =
-      time * energy_consumed * (onSiteWUE + waterOffSiteWUE * pue);
+      energy_consumed * (onSiteWUE + waterOffSiteWUE * pue);
 
     setResponse({
       energy_consumed,
@@ -123,11 +123,38 @@ const CalculatorForm = () => {
         </button>
       </form>
 
-      <div className="flex flex-col gap-4 mt-20">
-        <p>Gasto Energético (kWh) = {response?.energy_consumed.toFixed(3)}</p>
-        <p>Emissão de Co2 (kgCO2e) = {response?.carbon_footprint.toFixed(3)}</p>
-        <p>Água Consumida (L) = {response?.water_consumed.toFixed(3)}</p>
-      </div>
+      {response && (
+        <div className="flex items-center gap-10">
+          <div className="flex flex-col gap-4 ">
+            <p>
+              Gasto Energético (kWh) = {response?.energy_consumed.toFixed(3)}
+            </p>
+            <p>
+              Emissão de Co2 (kgCO2e) = {response?.carbon_footprint.toFixed(3)}
+            </p>
+            <p>Água Consumida (L) = {response?.water_consumed.toFixed(3)}</p>
+          </div>
+
+          <div className="flex flex-col gap-4 ">
+            <p>
+              {(() => {
+                const totalHours = Number(response?.energy_consumed) / 0.08;
+                const hours = Math.floor(totalHours);
+                const minutes = Math.round((totalHours - hours) * 60);
+                return `${hours} horas e ${minutes} minutos de uma lâmpada ligada`;
+              })()}
+            </p>
+            <p>
+              {(Number(response?.carbon_footprint) / 0.096).toFixed(2)} km
+              rodados de um carro médio brasileiro
+            </p>
+            <p>
+              {Math.floor(Number(response?.water_consumed) / 0.5)} garrafas de
+              500ml
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
