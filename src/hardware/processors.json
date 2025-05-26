@@ -1191,6 +1191,3862 @@
                     ]
                 ]
             }
+        ],
+        "intel": [
+            {
+                "generation": "Celeron",
+                "models": [
+                    {
+                        "Name": "Celeron 7300",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Celeron N2805",
+                        "TDP": "4 W"
+                    },
+                    {
+                        "Name": "Celeron N2806",
+                        "TDP": "4 W"
+                    },
+                    {
+                        "Name": "Celeron N2807",
+                        "TDP": "4 W"
+                    },
+                    {
+                        "Name": "Celeron N2808",
+                        "TDP": "4 W"
+                    },
+                    {
+                        "Name": "Celeron N2810",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Celeron N2820",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Celeron N2830",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Celeron N2840",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Celeron N2910",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Celeron N2920",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Celeron N2930",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Celeron N2940",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Celeron 1007U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 1037U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 1047UE",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 220",
+                        "TDP": "19 W"
+                    },
+                    {
+                        "Name": "Celeron 2955U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 2955U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 2961Y",
+                        "TDP": "12 W"
+                    },
+                    {
+                        "Name": "Celeron 2980U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 3205U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 3755U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 3865U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 3965U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 4205U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 4305U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 4305UE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 725C",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 7305",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Celeron 787",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 797",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 807",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 847",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 857",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 867",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 877",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 887",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron 947UE",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Celeron J4005",
+                        "TDP": "10 W"
+                    },
+                    {
+                        "Name": "Celeron J4025",
+                        "TDP": "10 W"
+                    },
+                    {
+                        "Name": "Celeron J4105",
+                        "TDP": "10 W"
+                    },
+                    {
+                        "Name": "Celeron J4125",
+                        "TDP": "10 W"
+                    },
+                    {
+                        "Name": "Celeron 1000M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron 1020E",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron 1020E",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron 1020M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron 1400",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron 2.0",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2.0",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2.10",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2.20",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2.30",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2.40",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2.60",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2.70",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2.80",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron 2950M",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Celeron 2950M",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Celeron 420",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron 430",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron 440",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron 445",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron 450",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B710",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B720",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B730",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B800",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B810",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B815",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B820",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B830",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron B840",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron E1200",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron E1400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron E1500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron E1600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron E3200",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron E3300",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron E3400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron E3500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron G1101",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Celeron G1610",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Celeron G1610T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G1620",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Celeron G1620T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G1630",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Celeron G1820",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G1820T",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G1820TE",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G1830",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G1840",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G1840T",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G1850",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G3900",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Celeron G3920",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Celeron G3930",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Celeron G3930T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G3950",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Celeron G440",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G460",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G465",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G4900",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G4900T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G4920",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Celeron G530",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron G530T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G540",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron G540T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G550",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron G550T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G555",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Celeron G5900",
+                        "TDP": "58 W"
+                    },
+                    {
+                        "Name": "Celeron G5920",
+                        "TDP": "58 W"
+                    },
+                    {
+                        "Name": "Celeron G6900",
+                        "TDP": "46 W"
+                    },
+                    {
+                        "Name": "Celeron G6900E",
+                        "TDP": "46 W"
+                    },
+                    {
+                        "Name": "Celeron G6900T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Celeron G6900TE",
+                        "TDP": "35 W"
+                    }
+                ]
+            },
+            {
+                "generation": "Core i3",
+                "models": [
+                    {
+                        "Name": "Core i3-1000G1",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i3-1000G4",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i3-1000NG4",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i3-10110Y",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i3-1210U",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i3-L13G4",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Core i3-N300",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Core i3-1005G1",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-1110G4",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-1120G4",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-1215U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-1215U (IPU)",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-1305U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-1315U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-1315UE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-2340UE",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i3-2357M",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i3-2367M",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i3-2377M",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i3-3217U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i3-3217UE",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i3-3227U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i3-3229Y",
+                        "TDP": "13 W"
+                    },
+                    {
+                        "Name": "Core i3-4005U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-4010U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-4010Y",
+                        "TDP": "12 W"
+                    },
+                    {
+                        "Name": "Core i3-4100U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-5005U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-5010U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-5015U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-5020U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-8121U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-8130U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-8145U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-8145UE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-N305",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i3-10105T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-10305T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-12100T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-12100TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-12300T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-13100T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-13100TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-14100T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2100T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2120T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2310E",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2310M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2310M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2312M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2312M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2328M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2330E",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2330M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2330M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2332M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2350M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-2370M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3110M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3110M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3120M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3120M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3120ME",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3130M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3220T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3240T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-3250T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-330M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-350M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-370M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-380M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-390M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4000M",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i3-4100E",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i3-4130T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4150T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4160T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4170T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4330T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4330TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4340TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4350T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4360T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-4370T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-7100H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-7100T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-7120T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-7300T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-7320T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-8100T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-8300T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-9100T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-9100TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i3-10100",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-10105",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-10105F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-10300",
+                        "TDP": "62 W"
+                    },
+                    {
+                        "Name": "Core i3-10305",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-10320",
+                        "TDP": "91 W"
+                    },
+                    {
+                        "Name": "Core i3-10325",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-10350K",
+                        "TDP": "91 W"
+                    },
+                    {
+                        "Name": "Core i3-12100",
+                        "TDP": "60 W"
+                    },
+                    {
+                        "Name": "Core i3-12100E",
+                        "TDP": "60 W"
+                    },
+                    {
+                        "Name": "Core i3-12100F",
+                        "TDP": "58 W"
+                    },
+                    {
+                        "Name": "Core i3-12300",
+                        "TDP": "60 W"
+                    },
+                    {
+                        "Name": "Core i3-12300HE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i3-13100",
+                        "TDP": "60 W"
+                    },
+                    {
+                        "Name": "Core i3-13100E",
+                        "TDP": "60 W"
+                    },
+                    {
+                        "Name": "Core i3-13100F",
+                        "TDP": "58 W"
+                    },
+                    {
+                        "Name": "Core i3-14100",
+                        "TDP": "60 W"
+                    },
+                    {
+                        "Name": "Core i3-14100F",
+                        "TDP": "58 W"
+                    },
+                    {
+                        "Name": "Core i3-2100",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-2102",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-2105",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-2115C",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-2120",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-2125",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-2130",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-3210",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i3-3220",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i3-3225",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i3-3240",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i3-3250",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i3-4130",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-4150",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-4160",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-4170",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-4330",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-4340",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-4350",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-4360",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-4370",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Core i3-530",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i3-540",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i3-550",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i3-560",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i3-6100",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-6300",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-6320",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-7100",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-7120",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-7300",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-7320",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-7340",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-7350K",
+                        "TDP": "60 W"
+                    },
+                    {
+                        "Name": "Core i3-7360X",
+                        "TDP": "112 W"
+                    },
+                    {
+                        "Name": "Core i3-8020",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Core i3-8100",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-8100F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-8120",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-8300",
+                        "TDP": "62 W"
+                    },
+                    {
+                        "Name": "Core i3-8350K",
+                        "TDP": "91 W"
+                    },
+                    {
+                        "Name": "Core i3-9000",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-9100",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-9100E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-9100F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i3-9300",
+                        "TDP": "62 W"
+                    },
+                    {
+                        "Name": "Core i3-9320",
+                        "TDP": "62 W"
+                    },
+                    {
+                        "Name": "Core i3-9350K",
+                        "TDP": "91 W"
+                    },
+                    {
+                        "Name": "Core i3-9350KF",
+                        "TDP": "91 W"
+                    }
+                ]
+            },
+            {
+                "generation": "Core i5",
+                "models": [
+                    {
+                        "Name": "Core i5-10210Y",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i5-1030G4",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i5-1030G7",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i5-10310Y",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i5-1230U",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i5-1240U",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i5-L16G7",
+                        "TDP": "7 W"
+                    },
+                    {
+                        "Name": "Core i5-1030NG7",
+                        "TDP": "10 W"
+                    },
+                    {
+                        "Name": "Core i5-1035G1",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1035G4",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1035G7",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1130G7",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1235U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1235U (IPU)",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1245U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1334U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1335U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1335UE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1345U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-1345UE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-2467M",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i5-2537M",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i5-2557M",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i5-3317U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i5-3337U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i5-3339Y",
+                        "TDP": "13 W"
+                    },
+                    {
+                        "Name": "Core i5-3427U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i5-3437U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i5-3439Y",
+                        "TDP": "13 W"
+                    },
+                    {
+                        "Name": "Core i5-4200U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-4200Y",
+                        "TDP": "12 W"
+                    },
+                    {
+                        "Name": "Core i5-4210U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-4250U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-4350U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-5200U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-5250U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-5300U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-5350U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-8250U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-8265U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-8350U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-8365U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-8365UE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i5-11260H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-11400H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-11400T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-11500H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-11500T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-11600T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-12400T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-12500T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-12500TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-12600T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-13400T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-13500T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-13500TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-13600T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-14400T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-14500T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-14600T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2390T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2410M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2410M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2415M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2430M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2430M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2435M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2435M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2450M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2450M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2510E",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2515E",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2520M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2520M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2540M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-2540M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3210M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3210M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3230M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3230M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3320M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3320M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3340M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3340M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3360M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3360M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3365M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3380M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3380M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3470T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3610ME",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-3610ME",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-4300M",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i5-430M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-4330M",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i5-4460T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-450M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-4570T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-4570TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-4590T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-460M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-480M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-540M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-560M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-580M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-6500T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-6500TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-6600",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-6600T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-7400T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-7500T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-7600T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-8400T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-8420T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-8500T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-8600T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-9400T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-9500T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i5-10200H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-10300H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-10400H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-12450H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-12500H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-12600H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-12600HE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-13420H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-13500H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-13505H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-13600H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-14401TE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-14501TE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-2500T",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-3570T",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-4670T",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-4690T",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-5350H",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i5-6350HQ",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-7300HQ",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-7440HQ",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-8300H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-8400H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i5-12450HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i5-12600HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i5-13450HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i5-13500HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i5-13600HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i5-14450HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i5-14500HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i5-10400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-10400F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-10500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-10600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-11400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-11400F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-11500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-11600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-12400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-12400F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-12490F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-12500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-12500E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-12600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-13400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-13400E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-13400F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-13490F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-13500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-13500E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-13600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-14400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-14400F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-14401E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-14490F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-14500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-14501E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-14600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-2400S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-2405S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-2500S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-3330",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i5-3330S",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i5-3335S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-3350P",
+                        "TDP": "69 W"
+                    },
+                    {
+                        "Name": "Core i5-3450",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i5-3450S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-3470",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i5-3470S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-3475S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-3550",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i5-3550S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-3570",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i5-3570K",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i5-3570S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4430",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i5-4430S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4440",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i5-4440S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4460",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i5-4460S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4570",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i5-4570R",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4570S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4590",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i5-4590S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4670",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i5-4670K",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i5-4670R",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4670S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-4690",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i5-4690K",
+                        "TDP": "88 W"
+                    },
+                    {
+                        "Name": "Core i5-4690S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-5575R",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-5675C",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-5675R",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-6400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-650",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i5-6500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-655K",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i5-660",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i5-661",
+                        "TDP": "87 W"
+                    },
+                    {
+                        "Name": "Core i5-670",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i5-680",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Core i5-7400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-7500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-750s",
+                        "TDP": "82 W"
+                    },
+                    {
+                        "Name": "Core i5-7600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-8305G",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-8400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-8420",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-8500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-8500B",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-8550",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-8600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-8650",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-9400",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-9400F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-9500",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-9500F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-9600",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i5-10600K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-10600KF",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-11600K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-11600KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-12600K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-12600KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-13600K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-13600KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-14600K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-14600KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i5-2300",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-2310",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-2320",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-2380P",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-2400",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-2450P",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-2500",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-2500K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-2550K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-6600K",
+                        "TDP": "91 W"
+                    },
+                    {
+                        "Name": "Core i5-750",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-760",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-7600K",
+                        "TDP": "91 W"
+                    },
+                    {
+                        "Name": "Core i5-7640X",
+                        "TDP": "112 W"
+                    },
+                    {
+                        "Name": "Core i5-8600K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-8650K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-9600K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i5-9600KF",
+                        "TDP": "95 W"
+                    }
+                ]
+            },
+            {
+                "generation": "Core i7",
+                "models": [
+                    {
+                        "Name": "Core i7-10510Y",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i7-1060G7",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i7-1250U",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i7-1260U",
+                        "TDP": "9 W"
+                    },
+                    {
+                        "Name": "Core i5-1060NG7",
+                        "TDP": "10 W"
+                    },
+                    {
+                        "Name": "Core i7-1065G7",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-1160G7",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-1255U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-1265U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-1355U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-1365U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-1365UE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-1366URE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-3517U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i7-3517UE",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i7-3537U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i7-3667U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i7-3687U",
+                        "TDP": "17 W"
+                    },
+                    {
+                        "Name": "Core i7-3689Y",
+                        "TDP": "13 W"
+                    },
+                    {
+                        "Name": "Core i7-4500U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-4550U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-4600U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-4650U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-5500U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-5550U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-5600U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-5650U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-620UE",
+                        "TDP": "18 W"
+                    },
+                    {
+                        "Name": "Core i7-620UM",
+                        "TDP": "18 W"
+                    },
+                    {
+                        "Name": "Core i7-640UM",
+                        "TDP": "18 W"
+                    },
+                    {
+                        "Name": "Core i7-660UE",
+                        "TDP": "18 W"
+                    },
+                    {
+                        "Name": "Core i7-660UM",
+                        "TDP": "18 W"
+                    },
+                    {
+                        "Name": "Core i7-680UM",
+                        "TDP": "18 W"
+                    },
+                    {
+                        "Name": "Core i7-8550U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-8560U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-8565U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-8650U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-8665U",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-8665UE",
+                        "TDP": "15 W"
+                    },
+                    {
+                        "Name": "Core i7-11600H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-11700T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-11800H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-11850H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-12700T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-12700TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-13700T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-13700TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-14700T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3520M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3520M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3525M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3540M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3540M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3612QE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3612QM",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3612QM",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3632QM",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-3632QM",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-4600M",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i7-4610M",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i7-4702HQ",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i7-4702MQ",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i7-4712HQ",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i7-4712MQ",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Core i7-4765T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-4785T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-610E",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-620M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-620M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-640M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-640M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-6700T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-6700TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-7700T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-8670T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-8700T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-9700T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i7-10750H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-10850H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-10870H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-10875H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-12650H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-12700H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-12800H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-12800HE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-13620H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-13700H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-13705H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-13800H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-14701TE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2630QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2635QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2670QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2675QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2710QE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2715QE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2720QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2720QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2760QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2760QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2820QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2820QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2860QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-2860QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3610QE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3610QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3615QE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3615QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3630QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3635QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3720QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3720QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3740QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3740QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3770T",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3820QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3820QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3840QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-3840QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-4700EQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4700HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4700MQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4710HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4710MQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4750HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4760HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4770HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4770T",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-4770TE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-4790T",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-4800MQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4810MQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4850EQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4850HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4860EQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4860HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4870HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4900MQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4910MQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4950HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4960HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-4980HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-5700HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-5750HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-5850HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-5950HQ",
+                        "TDP": "47 W"
+                    },
+                    {
+                        "Name": "Core i7-720QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-740QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-7700HQ",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-7820HK",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-7820HQ",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-7920HQ",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-820QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-840QM",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-8750H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-8850H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-9750H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-9750HF",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-9850H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-9850HE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i7-12650HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-12800HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-12850HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-13650HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-13700HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-13850HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-14650HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-14700HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-10700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-10700F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-10700K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-10700KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-11700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-11700F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-11700K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-11700KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-12700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-12700E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-12700F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-12700K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-12700KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-13700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-13700E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-13700F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-13700K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-13700KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-13790F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-14700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-14700F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-14700K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-14700KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i7-14701E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-2600",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-2600K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-2600S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-2700K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-3770",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i7-3770K",
+                        "TDP": "77 W"
+                    },
+                    {
+                        "Name": "Core i7-3770S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-3820",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-3910K",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-3930K",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-4770",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i7-4770K",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i7-4770R",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-4770S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-4771",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i7-4790",
+                        "TDP": "84 W"
+                    },
+                    {
+                        "Name": "Core i7-4790K",
+                        "TDP": "88 W"
+                    },
+                    {
+                        "Name": "Core i7-4790S",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-4820K",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-4930K",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-5775C",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-5775R",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-5820K",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-5930K",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-6700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-6700K",
+                        "TDP": "91 W"
+                    },
+                    {
+                        "Name": "Core i7-6785R",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-6800K",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-6850K",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-6900K",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-7700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-7700K",
+                        "TDP": "91 W"
+                    },
+                    {
+                        "Name": "Core i7-7740X",
+                        "TDP": "112 W"
+                    },
+                    {
+                        "Name": "Core i7-7800X",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-7820X",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-860",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-860S",
+                        "TDP": "82 W"
+                    },
+                    {
+                        "Name": "Core i7-8670",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-870",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-8700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-8700B",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-8700K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-8705G",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-8706G",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-8709G",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-870S",
+                        "TDP": "82 W"
+                    },
+                    {
+                        "Name": "Core i7-875K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-880",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-8809G",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-920",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-930",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-940",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-950",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-960",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-970",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-9700",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-9700E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-9700F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i7-9700K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-9700KF",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i7-980",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-9800X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i7-2920XM",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-2960XM",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-3920XM",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-3940XM",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-3960X",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-3970X",
+                        "TDP": "150 W"
+                    },
+                    {
+                        "Name": "Core i7-4930MX",
+                        "TDP": "57 W"
+                    },
+                    {
+                        "Name": "Core i7-4940MX",
+                        "TDP": "57 W"
+                    },
+                    {
+                        "Name": "Core i7-4960X",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-5960X",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-6950X",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i7-920XM",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-940XM",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i7-965",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-975",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-980X",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-990X",
+                        "TDP": "130 W"
+                    },
+                    {
+                        "Name": "Core i7-8086K",
+                        "TDP": "95 W"
+                    }
+                ]
+            },
+            {
+                "generation": "Core i9",
+                "models": [
+                    {
+                        "Name": "Core i9-10800F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-10850K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-10885H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-10900",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-10900E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-10900F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-10900K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-10900KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-10900TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-10900X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-10920X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-10940X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-10980HK",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-11900",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-11900F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-11900H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-11900K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-11900KB",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-11900KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-11900T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-11950H",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-11980HK",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-12900",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-12900E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-12900F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-12900H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-12900HK",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-12900HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i9-12900K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-12900KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-12900KS",
+                        "TDP": "150 W"
+                    },
+                    {
+                        "Name": "Core i9-12900T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-12900TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-12950HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i9-13900",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-13900E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-13900F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-13900H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-13900HK",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-13900HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i9-13900K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-13900KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-13900KS",
+                        "TDP": "150 W"
+                    },
+                    {
+                        "Name": "Core i9-13900T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-13900TE",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-13905H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-13950HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i9-13980HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i9-14900",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-14900F",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-14900HX",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Core i9-14900K",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-14900KF",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-14900KS",
+                        "TDP": "150 W"
+                    },
+                    {
+                        "Name": "Core i9-14900T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-14901E",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-14901KE",
+                        "TDP": "125 W"
+                    },
+                    {
+                        "Name": "Core i9-14901TE",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-7900X",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i9-7920X",
+                        "TDP": "140 W"
+                    },
+                    {
+                        "Name": "Core i9-7940X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-7960X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-8950HK",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i9-9820X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-9880H",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-9900",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Core i9-9900K",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i9-9900KF",
+                        "TDP": "95 W"
+                    },
+                    {
+                        "Name": "Core i9-9900KS",
+                        "TDP": "127 W"
+                    },
+                    {
+                        "Name": "Core i9-9900T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Core i9-9900X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-9920X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-9940X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-9960X",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-9980HK",
+                        "TDP": "45 W"
+                    },
+                    {
+                        "Name": "Core i9-10980XE",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-10990XE",
+                        "TDP": "380 W"
+                    },
+                    {
+                        "Name": "Core i9-7980XE",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-9980XE",
+                        "TDP": "165 W"
+                    },
+                    {
+                        "Name": "Core i9-9990XE",
+                        "TDP": "255 W"
+                    }
+                ]
+            },
+            {
+                "generation": "Pentium",
+                "models": [
+                    {
+                        "Name": "Pentium 1403 V2",
+                        "TDP": "80 W"
+                    },
+                    {
+                        "Name": "Pentium 1405 V2",
+                        "TDP": "40 W"
+                    },
+                    {
+                        "Name": "Pentium 2020M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium 2030M",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium 3550M",
+                        "TDP": "37 W"
+                    },
+                    {
+                        "Name": "Pentium B915C",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium B940",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium B950",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium B960",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium B970",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium B980",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G2010",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Pentium G2020",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Pentium G2020T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G2100T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G2120",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Pentium G2130",
+                        "TDP": "55 W"
+                    },
+                    {
+                        "Name": "Pentium G3220",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Pentium G3220T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G3250",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Pentium G3250T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G3258",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Pentium G3420",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Pentium G3420T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G3430",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Pentium G3440",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Pentium G3450",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Pentium G3450T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G3460",
+                        "TDP": "54 W"
+                    },
+                    {
+                        "Name": "Pentium G4400",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Pentium G4500",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Pentium G4520",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Pentium G4560",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Pentium G4560T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G4600",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Pentium G4600T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G4620",
+                        "TDP": "51 W"
+                    },
+                    {
+                        "Name": "Pentium G620",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G620T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G622",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G630",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G630T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G632",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G640",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G640T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G645",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G645T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G6950",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Pentium G6951",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Pentium G6960",
+                        "TDP": "73 W"
+                    },
+                    {
+                        "Name": "Pentium G840",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G850",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G860",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium G860T",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium G870",
+                        "TDP": "65 W"
+                    },
+                    {
+                        "Name": "Pentium P6000",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium P6100",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium P6200",
+                        "TDP": "35 W"
+                    },
+                    {
+                        "Name": "Pentium P6300",
+                        "TDP": "35 W"
+                    }
+                ]
+            }
         ]
     }
 ]
