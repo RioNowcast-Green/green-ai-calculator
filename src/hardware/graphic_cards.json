@@ -163,6 +163,296 @@
           "tdp": "205 W"
         }
       ]
+    },
+    {
+      "generation": "Polaris",
+      "models": [
+        {
+          "name": "Radeon 520 OEM",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon 540",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon 550",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon 550X",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon 550X 640SP",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon 625 OEM",
+          "tdp": "35 W"
+        },
+        {
+          "name": "Radeon RX 550",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon RX 550 512SP",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon RX 550 640SP",
+          "tdp": "60 W"
+        },
+        {
+          "name": "Radeon RX 550X",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon RX 550X 640SP",
+          "tdp": "60 W"
+        },
+        {
+          "name": "Radeon RX 560",
+          "tdp": "75 W"
+        },
+        {
+          "name": "Radeon RX 560 896SP",
+          "tdp": "45 W"
+        },
+        {
+          "name": "Radeon RX 560 XT",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 560D",
+          "tdp": "65 W"
+        },
+        {
+          "name": "Radeon RX 560DX",
+          "tdp": "65 W"
+        },
+        {
+          "name": "Radeon RX 560X",
+          "tdp": "75 W"
+        },
+        {
+          "name": "Radeon RX 570",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 570X",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 580",
+          "tdp": "185 W"
+        },
+        {
+          "name": "Radeon RX 580 2048SP",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 580 OEM",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 580G",
+          "tdp": "185 W"
+        },
+        {
+          "name": "Radeon RX 580X",
+          "tdp": "185 W"
+        },
+        {
+          "name": "Radeon RX 590",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 590 GME",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 640 OEM",
+          "tdp": "50 W"
+        }
+      ]
+    },
+    {
+      "generation": "Navi",
+      "models": [
+        {
+          "name": "Radeon RX 5300 OEM",
+          "tdp": "100 W"
+        },
+        {
+          "name": "Radeon RX 5300 XT OEM",
+          "tdp": "100 W"
+        },
+        {
+          "name": "Radeon RX 5500 OEM",
+          "tdp": "110 W"
+        },
+        {
+          "name": "Radeon RX 5500 XT",
+          "tdp": "130 W"
+        },
+        {
+          "name": "Radeon RX 5600 OEM",
+          "tdp": "125 W"
+        },
+        {
+          "name": "Radeon RX 5600 XT",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 5700",
+          "tdp": "180 W"
+        },
+        {
+          "name": "Radeon RX 5700 XT",
+          "tdp": "225 W"
+        },
+        {
+          "name": "Radeon RX 6300",
+          "tdp": "32 W"
+        },
+        {
+          "name": "Radeon RX 6400",
+          "tdp": "53 W"
+        },
+        {
+          "name": "Radeon RX 6500 XT",
+          "tdp": "107 W"
+        },
+        {
+          "name": "Radeon RX 6600",
+          "tdp": "132 W"
+        },
+        {
+          "name": "Radeon RX 6600 LE",
+          "tdp": "132 W"
+        },
+        {
+          "name": "Radeon RX 6600 XT",
+          "tdp": "160 W"
+        },
+        {
+          "name": "Radeon RX 6650 XT",
+          "tdp": "176 W"
+        },
+        {
+          "name": "Radeon RX 6700",
+          "tdp": "175 W"
+        },
+        {
+          "name": "Radeon RX 6700 XT",
+          "tdp": "230 W"
+        },
+        {
+          "name": "Radeon RX 6750 GRE 10 GB",
+          "tdp": "170 W"
+        },
+        {
+          "name": "Radeon RX 6750 GRE 12 GB",
+          "tdp": "250 W"
+        },
+        {
+          "name": "Radeon RX 6750 XT",
+          "tdp": "250 W"
+        },
+        {
+          "name": "Radeon RX 6800",
+          "tdp": "250 W"
+        },
+        {
+          "name": "Radeon RX 6800 XT",
+          "tdp": "300 W"
+        },
+        {
+          "name": "Radeon RX 6900 XT",
+          "tdp": "300 W"
+        },
+        {
+          "name": "Radeon RX 6900 XTX",
+          "tdp": "330 W"
+        },
+        {
+          "name": "Radeon RX 6950 XT",
+          "tdp": "335 W"
+        },
+        {
+          "name": "Radeon RX 7500 XT",
+          "tdp": "100 W"
+        },
+        {
+          "name": "Radeon RX 7600",
+          "tdp": "165 W"
+        },
+        {
+          "name": "Radeon RX 7600 XT",
+          "tdp": "190 W"
+        },
+        {
+          "name": "Radeon RX 7650 GRE",
+          "tdp": "165 W"
+        },
+        {
+          "name": "Radeon RX 7700",
+          "tdp": "200 W"
+        },
+        {
+          "name": "Radeon RX 7700 XT",
+          "tdp": "245 W"
+        },
+        {
+          "name": "Radeon RX 7800 XT",
+          "tdp": "263 W"
+        },
+        {
+          "name": "Radeon RX 7900 GRE",
+          "tdp": "260 W"
+        },
+        {
+          "name": "Radeon RX 7900 XT",
+          "tdp": "300 W"
+        },
+        {
+          "name": "Radeon RX 7900 XTX",
+          "tdp": "355 W"
+        },
+        {
+          "name": "Radeon RX 7950 XT",
+          "tdp": "300 W"
+        },
+        {
+          "name": "Radeon RX 7950 XTX",
+          "tdp": "355 W"
+        },
+        {
+          "name": "Radeon RX 7990 XTX",
+          "tdp": "405 W"
+        },
+        {
+          "name": "Radeon RX 9060 XT 16 GB",
+          "tdp": "160 W"
+        },
+        {
+          "name": "Radeon RX 9060 XT 8 GB",
+          "tdp": "150 W"
+        },
+        {
+          "name": "Radeon RX 9070",
+          "tdp": "220 W"
+        },
+        {
+          "name": "Radeon RX 9070 GRE",
+          "tdp": "220 W"
+        },
+        {
+          "name": "Radeon RX 9070 XT",
+          "tdp": "304 W"
+        }
+      ]
     }
   ],
   "nvidia": [
