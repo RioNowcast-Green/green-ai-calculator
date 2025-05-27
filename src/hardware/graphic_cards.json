@@ -1,0 +1,179 @@
+{
+  "amd": [
+    {
+      "generation": "Radeon Pro GCN",
+      "models": [
+        {
+          "name": "Radeon Pro Duo",
+          "tdp": "350 W"
+        },
+        {
+          "name": "Radeon Pro Duo Polaris",
+          "tdp": "250 W"
+        },
+        {
+          "name": "Radeon Pro SSG",
+          "tdp": "260 W"
+        }
+      ]
+    },
+    {
+      "generation": "Radeon Pro Polaris",
+      "models": [
+        {
+          "name": "Radeon Pro WX 2100",
+          "tdp": "35 W"
+        },
+        {
+          "name": "Radeon Pro WX 3100",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon Pro WX 3200",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon Pro WX 4100",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon Pro WX 5100",
+          "tdp": "75 W"
+        },
+        {
+          "name": "Radeon Pro WX 7100",
+          "tdp": "130 W"
+        },
+        {
+          "name": "Radeon Pro WX 8100",
+          "tdp": "230 W"
+        },
+        {
+          "name": "Radeon Pro WX 8200",
+          "tdp": "230 W"
+        },
+        {
+          "name": "Radeon Pro WX 9100",
+          "tdp": "230 W"
+        }
+      ]
+    },
+    {
+      "generation": "Radeon Pro Vega",
+      "models": [
+        {
+          "name": "Radeon Pro SSG",
+          "tdp": "260 W"
+        },
+        {
+          "name": "Radeon Pro V320",
+          "tdp": "230 W"
+        },
+        {
+          "name": "Radeon Pro V340",
+          "tdp": "230 W"
+        },
+        {
+          "name": "Radeon Pro V420",
+          "tdp": "300 W"
+        },
+        {
+          "name": "Radeon Pro VII",
+          "tdp": "250 W"
+        },
+        {
+          "name": "Radeon Vega Frontier Edition",
+          "tdp": "300 W"
+        },
+        {
+          "name": "Radeon Vega Frontier Edition Watercooled",
+          "tdp": "375 W"
+        }
+      ]
+    },
+    {
+      "generation": "Radeon Pro Navi",
+      "models": [
+        {
+          "name": "Radeon AI PRO R9700",
+          "tdp": "300 W"
+        },
+        {
+          "name": "Radeon PRO V620",
+          "tdp": "300 W"
+        },
+        {
+          "name": "Radeon PRO V710",
+          "tdp": "158 W"
+        },
+        {
+          "name": "Radeon PRO W6300",
+          "tdp": "25 W"
+        },
+        {
+          "name": "Radeon PRO W6400",
+          "tdp": "50 W"
+        },
+        {
+          "name": "Radeon PRO W6600",
+          "tdp": "100 W"
+        },
+        {
+          "name": "Radeon PRO W6800",
+          "tdp": "250 W"
+        },
+        {
+          "name": "Radeon PRO W7500",
+          "tdp": "70 W"
+        },
+        {
+          "name": "Radeon PRO W7600",
+          "tdp": "130 W"
+        },
+        {
+          "name": "Radeon PRO W7700",
+          "tdp": "190 W"
+        },
+        {
+          "name": "Radeon PRO W7800",
+          "tdp": "260 W"
+        },
+        {
+          "name": "Radeon PRO W7800 48 GB",
+          "tdp": "281 W"
+        },
+        {
+          "name": "Radeon PRO W7900",
+          "tdp": "295 W"
+        },
+        {
+          "name": "Radeon Pro V520",
+          "tdp": "225 W"
+        },
+        {
+          "name": "Radeon Pro V540",
+          "tdp": "225 W"
+        },
+        {
+          "name": "Radeon Pro W5500",
+          "tdp": "125 W"
+        },
+        {
+          "name": "Radeon Pro W5700",
+          "tdp": "205 W"
+        }
+      ]
+    }
+  ],
+  "nvidia": [
+    {
+      "generation": "",
+      "models": [
+        {
+          "name": "",
+          "tdp": ""
+        }
+      ]
+    }
+  ]
+}
