@@ -7,8 +7,9 @@ import Select from "react-select";
 import processors from "../../../hardware/processors.json";
 import countries from "../../../country/countries.json";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Label } from "../Label";
+import { calculateEnergyConsumed } from "../../../utils/equation";
 
 const CalculatorForm = () => {
   const {
@@ -19,17 +20,74 @@ const CalculatorForm = () => {
     resolver: zodResolver(calculatorSchema),
   });
 
-  const processorsOptions = processors.map((p) => ({
-    value: p.id,
-    label: p.label,
-    tdp: p.tdp,
+  const brandOptions = Object.keys(processors).map((brand) => ({
+    value: brand,
+    label: brand === "amd" ? "AMD" : "Intel",
   }));
 
+  const [brand, setBrand] = useState<{
+    value: string;
+    label: string;
+  } | null>(null);
+
+  const [generation, setGeneration] = useState<{
+    value: string;
+    label: string;
+  } | null>(null);
+
   const [processor, setProcessor] = useState<{
-    value: number;
+    value: string;
     label: string;
     tdp: number;
   } | null>(null);
+
+  useEffect(() => {
+    setGeneration(null);
+    setProcessor(null);
+  }, [brand]);
+
+  useEffect(() => {
+    setProcessor(null);
+  }, [generation]);
+
+  const cpuGenerationOptions = () => {
+    if (!brand) return [];
+
+    const selectedBrand = brand.value;
+
+    console.log("Selected Brand", selectedBrand);
+
+    const generations =
+      selectedBrand === "amd" ? processors.amd : processors.intel;
+
+    return generations.map((gen) => ({
+      value: gen.generation,
+      label: gen.generation,
+    }));
+  };
+
+  const processorsOptions = () => {
+    if (!brand || !generation) return [];
+    const selectedBrand = brand.value;
+    const generations =
+      selectedBrand === "amd" ? processors.amd : processors.intel;
+
+    const processorsList = generations.find(
+      (gen) =>
+        gen.generation.toLocaleLowerCase() ===
+        generation?.value.toLocaleLowerCase()
+    );
+
+    if (!processorsList) return [];
+
+    return (
+      processorsList.models.map((proc) => ({
+        value: proc["Name"],
+        label: proc["Name"],
+        tdp: proc["TDP"],
+      })) ?? []
+    );
+  };
 
   const countriesOptions = countries.map((c) => ({
     value: c.id,
@@ -51,23 +109,7 @@ const CalculatorForm = () => {
   } | null>(null);
 
   const handleCalculate = (body: CalculatorSchemaType) => {
-    const time = body.time / 3600; // h
-    const pue = body.PUE || 1;
-    const tdp = processor?.tdp / 1000 || 0; // kw
-    const onSiteWUE = body.onSiteWUE || 0;
-    const waterOffSiteWUE = country?.wue * 3.785 || 0; // L/kWh
-    const carbon_intensity = Number(country?.carbon_intensity) / 1000 || 0;
-
-    const energy_consumed = time * tdp * pue;
-    const carbon_footprint = energy_consumed * carbon_intensity; // kgCO2e
-    const water_consumed =
-      energy_consumed * (onSiteWUE + waterOffSiteWUE * pue);
-
-    setResponse({
-      energy_consumed,
-      carbon_footprint,
-      water_consumed,
-    });
+    setResponse(calculateEnergyConsumed());
   };
 
   return (
@@ -80,12 +122,31 @@ const CalculatorForm = () => {
           {...register("time")}
         />
 
-        <div className="flex gap-3 items-center">
-          <Label>CPU </Label>
+        <div className="flex flex-col gap-3 items-start">
+          <Label>CPU: </Label>
           <Select
             className="w-full"
-            options={processorsOptions}
+            options={brandOptions}
+            onChange={setBrand}
+            value={brand}
+          />
+
+          <Select
+            className="w-full"
+            options={cpuGenerationOptions()}
+            placeholder="Select Generation"
+            onChange={setGeneration}
+            value={generation}
+            isDisabled={!brand}
+          />
+
+          <Select
+            className="w-full"
+            options={processorsOptions()}
+            placeholder="Select CPU"
+            value={processor}
             onChange={setProcessor}
+            isDisabled={!brand || !generation}
           />
         </div>
 
@@ -101,6 +162,7 @@ const CalculatorForm = () => {
           <Select
             className="w-full"
             options={countriesOptions}
+            value={country}
             onChange={setCountry}
           />
         </div>
