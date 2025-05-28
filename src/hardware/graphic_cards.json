@@ -457,11 +457,381 @@
   ],
   "nvidia": [
     {
-      "generation": "",
+      "generation": "GeForce 900",
       "models": [
         {
-          "name": "",
-          "tdp": ""
+          "name": "GeForce GTX 950",
+          "tdp": "90 W"
+        },
+        {
+          "name": "GeForce GTX 950 Low Power",
+          "tdp": "75 W"
+        },
+        {
+          "name": "GeForce GTX 960",
+          "tdp": "120 W"
+        },
+        {
+          "name": "GeForce GTX 970",
+          "tdp": "148 W"
+        },
+        {
+          "name": "GeForce GTX 980",
+          "tdp": "165 W"
+        },
+        {
+          "name": "GeForce GTX 980 Ti",
+          "tdp": "250 W"
+        },
+        {
+          "name": "GeForce GTX TITAN X",
+          "tdp": "250 W"
+        }
+      ]
+    },
+    {
+      "generation": "GeForce 10",
+      "models": [
+        {
+          "name": "GeForce GT 1010",
+          "tdp": "30 W"
+        },
+        {
+          "name": "GeForce GT 1010 DDR4",
+          "tdp": "20 W"
+        },
+        {
+          "name": "GeForce GT 1030",
+          "tdp": "30 W"
+        },
+        {
+          "name": "GeForce GT 1030 DDR4",
+          "tdp": "20 W"
+        },
+        {
+          "name": "GeForce GT 1030 GK107",
+          "tdp": "65 W"
+        },
+        {
+          "name": "GeForce GTX 1050",
+          "tdp": "75 W"
+        },
+        {
+          "name": "GeForce GTX 1050 Ti",
+          "tdp": "75 W"
+        },
+        {
+          "name": "GeForce GTX 1060",
+          "tdp": "120 W"
+        },
+        {
+          "name": "GeForce GTX 1070",
+          "tdp": "150 W"
+        },
+        {
+          "name": "GeForce GTX 1070 Ti",
+          "tdp": "180 W"
+        },
+        {
+          "name": "GeForce GTX 1080",
+          "tdp": "180 W"
+        },
+        {
+          "name": "GeForce GTX 1080 Ti",
+          "tdp": "250 W"
+        },
+        {
+          "name": "TITAN V",
+          "tdp": "250 W"
+        },
+        {
+          "name": "TITAN V CEO Edition",
+          "tdp": "250 W"
+        },
+        {
+          "name": "TITAN X Pascal",
+          "tdp": "250 W"
+        },
+        {
+          "name": "TITAN Xp",
+          "tdp": "250 W"
+        }
+      ]
+    },
+    {
+      "generation": "GeForce 16",
+      "models": [
+        {
+          "name": "GeForce GTX 1630",
+          "tdp": "75 W"
+        },
+        {
+          "name": "GeForce GTX 1650",
+          "tdp": "75 W"
+        },
+        {
+          "name": "GeForce GTX 1650 SUPER",
+          "tdp": "100 W"
+        },
+        {
+          "name": "GeForce GTX 1650 TU106",
+          "tdp": "90 W"
+        },
+        {
+          "name": "GeForce GTX 1650 TU116",
+          "tdp": "80 W"
+        },
+        {
+          "name": "GeForce GTX 1660",
+          "tdp": "120 W"
+        },
+        {
+          "name": "GeForce GTX 1660 SUPER",
+          "tdp": "125 W"
+        },
+        {
+          "name": "GeForce GTX 1660 Ti",
+          "tdp": "120 W"
+        }
+      ]
+    },
+    {
+      "generation": "GeForce 20",
+      "models": [
+        {
+          "name": "GeForce RTX 2060",
+          "tdp": "160 W"
+        },
+        {
+          "name": "GeForce RTX 2060 12 GB",
+          "tdp": "184 W"
+        },
+        {
+          "name": "GeForce RTX 2060 SUPER",
+          "tdp": "175 W"
+        },
+        {
+          "name": "GeForce RTX 2070",
+          "tdp": "175 W"
+        },
+        {
+          "name": "GeForce RTX 2070 SUPER",
+          "tdp": "215 W"
+        },
+        {
+          "name": "GeForce RTX 2080",
+          "tdp": "215 W"
+        },
+        {
+          "name": "GeForce RTX 2080 SUPER",
+          "tdp": "250 W"
+        },
+        {
+          "name": "GeForce RTX 2080 Ti",
+          "tdp": "250 W"
+        },
+        {
+          "name": "TITAN RTX",
+          "tdp": "280 W"
+        }
+      ]
+    },
+    {
+      "generation": "GeForce 30",
+      "models": [
+        {
+          "name": "GeForce RTX 3050 4 GB",
+          "tdp": "90 W"
+        },
+        {
+          "name": "GeForce RTX 3050 6 GB",
+          "tdp": "70 W"
+        },
+        {
+          "name": "GeForce RTX 3050 8 GB",
+          "tdp": "130 W"
+        },
+        {
+          "name": "GeForce RTX 3050 8 GB GA107",
+          "tdp": "115 W"
+        },
+        {
+          "name": "GeForce RTX 3050 OEM",
+          "tdp": "130 W"
+        },
+        {
+          "name": "GeForce RTX 3060 12 GB",
+          "tdp": "170 W"
+        },
+        {
+          "name": "GeForce RTX 3060 12 GB GA104",
+          "tdp": "170 W"
+        },
+        {
+          "name": "GeForce RTX 3060 3840SP",
+          "tdp": "185 W"
+        },
+        {
+          "name": "GeForce RTX 3060 8 GB",
+          "tdp": "170 W"
+        },
+        {
+          "name": "GeForce RTX 3060 8 GB GA104",
+          "tdp": "195 W"
+        },
+        {
+          "name": "GeForce RTX 3060 Ti",
+          "tdp": "200 W"
+        },
+        {
+          "name": "GeForce RTX 3060 Ti GA103",
+          "tdp": "200 W"
+        },
+        {
+          "name": "GeForce RTX 3060 Ti GDDR6X",
+          "tdp": "225 W"
+        },
+        {
+          "name": "GeForce RTX 3070",
+          "tdp": "220 W"
+        },
+        {
+          "name": "GeForce RTX 3070 6144SP",
+          "tdp": "290 W"
+        },
+        {
+          "name": "GeForce RTX 3070 Ti",
+          "tdp": "290 W"
+        },
+        {
+          "name": "GeForce RTX 3070 TiM",
+          "tdp": "220 W"
+        },
+        {
+          "name": "GeForce RTX 3080",
+          "tdp": "320 W"
+        },
+        {
+          "name": "GeForce RTX 3080 12 GB",
+          "tdp": "350 W"
+        },
+        {
+          "name": "GeForce RTX 3080 Ti",
+          "tdp": "350 W"
+        },
+        {
+          "name": "GeForce RTX 3090",
+          "tdp": "350 W"
+        },
+        {
+          "name": "GeForce RTX 3090 Ti",
+          "tdp": "450 W"
+        }
+      ]
+    },
+    {
+      "generation": "GeForce 40",
+      "models": [
+        {
+          "name": "GeForce RTX 4010",
+          "tdp": "50 W"
+        },
+        {
+          "name": "GeForce RTX 4050",
+          "tdp": "100 W"
+        },
+        {
+          "name": "GeForce RTX 4060",
+          "tdp": "115 W"
+        },
+        {
+          "name": "GeForce RTX 4060 Ti 16 GB",
+          "tdp": "165 W"
+        },
+        {
+          "name": "GeForce RTX 4060 Ti 8 GB",
+          "tdp": "160 W"
+        },
+        {
+          "name": "GeForce RTX 4070",
+          "tdp": "200 W"
+        },
+        {
+          "name": "GeForce RTX 4070 10 GB",
+          "tdp": "220 W"
+        },
+        {
+          "name": "GeForce RTX 4070 SUPER",
+          "tdp": "220 W"
+        },
+        {
+          "name": "GeForce RTX 4070 Ti",
+          "tdp": "285 W"
+        },
+        {
+          "name": "GeForce RTX 4070 Ti SUPER",
+          "tdp": "285 W"
+        },
+        {
+          "name": "GeForce RTX 4080",
+          "tdp": "320 W"
+        },
+        {
+          "name": "GeForce RTX 4080 12 GB",
+          "tdp": "285 W"
+        },
+        {
+          "name": "GeForce RTX 4080 Ti",
+          "tdp": "400 W"
+        },
+        {
+          "name": "GeForce RTX 4090",
+          "tdp": "450 W"
+        },
+        {
+          "name": "GeForce RTX 4090 D",
+          "tdp": "425 W"
+        },
+        {
+          "name": "GeForce RTX 4090 Ti",
+          "tdp": "600 W"
+        },
+        {
+          "name": "TITAN Ada",
+          "tdp": "800 W"
+        }
+      ]
+    },
+    {
+      "generation": "GeForce 50",
+      "models": [
+        {
+          "name": "GeForce RTX 5050",
+          "tdp": "130 W"
+        },
+        {
+          "name": "GeForce RTX 5060",
+          "tdp": "145 W"
+        },
+        {
+          "name": "GeForce RTX 5060 Ti",
+          "tdp": "180 W"
+        },
+        {
+          "name": "GeForce RTX 5070",
+          "tdp": "250 W"
+        },
+        {
+          "name": "GeForce RTX 5070 Ti",
+          "tdp": "300 W"
+        },
+        {
+          "name": "GeForce RTX 5080",
+          "tdp": "360 W"
+        },
+        {
+          "name": "GeForce RTX 5090",
+          "tdp": "575 W"
         }
       ]
     }
