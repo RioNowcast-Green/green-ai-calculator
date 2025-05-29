@@ -5,6 +5,7 @@ import { calculatorSchema, CalculatorSchemaType } from "./calculatorSchema";
 import Select from "react-select";
 
 import processors from "../../../hardware/processors.json";
+import graphic_cards from "../../../hardware/graphic_cards.json";
 import countries from "../../../country/countries.json";
 
 import { useEffect, useState } from "react";
@@ -20,17 +21,32 @@ const CalculatorForm = () => {
     resolver: zodResolver(calculatorSchema),
   });
 
-  const brandOptions = Object.keys(processors).map((brand) => ({
+  const cpuBrandOptions = Object.keys(processors).map((brand) => ({
     value: brand,
     label: brand === "amd" ? "AMD" : "Intel",
   }));
 
-  const [brand, setBrand] = useState<{
+  const gpuBrandOptions = Object.keys(graphic_cards).map((brand) => ({
+    value: brand,
+    label: brand === "amd" ? "AMD" : "NVIDIA",
+  }));
+
+  const [cpuBrand, setCPUBrand] = useState<{
     value: string;
     label: string;
   } | null>(null);
 
-  const [generation, setGeneration] = useState<{
+  const [gpuBrand, setGPUBrand] = useState<{
+    value: string;
+    label: string;
+  } | null>(null);
+
+  const [cpuGeneration, setCPUGeneration] = useState<{
+    value: string;
+    label: string;
+  } | null>(null);
+
+  const [gpuGeneration, setGPUGeneration] = useState<{
     value: string;
     label: string;
   } | null>(null);
@@ -41,41 +57,54 @@ const CalculatorForm = () => {
     tdp: number;
   } | null>(null);
 
+  const [graphicCard, setGraphicCard] = useState<{
+    value: string;
+    label: string;
+    tdp: number;
+  } | null>(null);
+
   useEffect(() => {
-    setGeneration(null);
+    setCPUGeneration(null);
     setProcessor(null);
-  }, [brand]);
+  }, [cpuBrand]);
+
+  useEffect(() => {
+    setGPUGeneration(null);
+    setGraphicCard(null);
+  }, [cpuBrand]);
 
   useEffect(() => {
     setProcessor(null);
-  }, [generation]);
+  }, [cpuGeneration]);
+
+  useEffect(() => {
+    setGraphicCard(null);
+  }, [gpuGeneration]);
 
   const cpuGenerationOptions = () => {
-    if (!brand) return [];
+    if (!cpuBrand) return [];
 
-    const selectedBrand = brand.value;
+    const selectedCPUBrand = cpuBrand.value;
 
-    console.log("Selected Brand", selectedBrand);
+    const cpuGenerations =
+      selectedCPUBrand === "amd" ? processors.amd : processors.intel;
 
-    const generations =
-      selectedBrand === "amd" ? processors.amd : processors.intel;
-
-    return generations.map((gen) => ({
+    return cpuGenerations.map((gen) => ({
       value: gen.generation,
       label: gen.generation,
     }));
   };
 
   const processorsOptions = () => {
-    if (!brand || !generation) return [];
-    const selectedBrand = brand.value;
-    const generations =
-      selectedBrand === "amd" ? processors.amd : processors.intel;
+    if (!cpuBrand || !cpuGeneration) return [];
+    const selectedCPUBrand = cpuBrand.value;
+    const cpuGenerations =
+      selectedCPUBrand === "amd" ? processors.amd : processors.intel;
 
-    const processorsList = generations.find(
+    const processorsList = cpuGenerations.find(
       (gen) =>
         gen.generation.toLocaleLowerCase() ===
-        generation?.value.toLocaleLowerCase()
+        cpuGeneration?.value.toLocaleLowerCase()
     );
 
     if (!processorsList) return [];
@@ -85,6 +114,43 @@ const CalculatorForm = () => {
         value: proc["Name"],
         label: proc["Name"],
         tdp: proc["TDP"],
+      })) ?? []
+    );
+  };
+
+  const gpuGenerationOptions = () => {
+    if (!gpuBrand) return [];
+
+    const selectedGPUBrand = gpuBrand.value;
+
+    const gpuGenerations =
+      selectedGPUBrand === "amd" ? graphic_cards.amd : graphic_cards.nvidia;
+
+    return gpuGenerations.map((gen) => ({
+      value: gen.generation,
+      label: gen.generation,
+    }));
+  };
+
+  const graphicCardsOptions = () => {
+    if (!gpuBrand || !gpuGeneration) return [];
+    const selectedGPUBrand = gpuBrand.value;
+    const gpuGenerations =
+      selectedGPUBrand === "amd" ? graphic_cards.amd : graphic_cards.nvidia;
+
+    const processorsList = gpuGenerations.find(
+      (gen) =>
+        gen.generation.toLocaleLowerCase() ===
+        gpuGeneration?.value.toLocaleLowerCase()
+    );
+
+    if (!processorsList) return [];
+
+    return (
+      processorsList.models.map((proc) => ({
+        value: proc.name,
+        label: proc.name,
+        tdp: proc.tdp,
       })) ?? []
     );
   };
@@ -109,7 +175,7 @@ const CalculatorForm = () => {
   } | null>(null);
 
   const handleCalculate = (body: CalculatorSchemaType) => {
-    setResponse(calculateEnergyConsumed());
+    setResponse(calculateEnergyConsumed(body, processor, graphicCard, country));
   };
 
   return (
@@ -126,18 +192,18 @@ const CalculatorForm = () => {
           <Label>CPU: </Label>
           <Select
             className="w-full"
-            options={brandOptions}
-            onChange={setBrand}
-            value={brand}
+            options={cpuBrandOptions}
+            onChange={setCPUBrand}
+            value={cpuBrand}
           />
 
           <Select
             className="w-full"
             options={cpuGenerationOptions()}
             placeholder="Select Generation"
-            onChange={setGeneration}
-            value={generation}
-            isDisabled={!brand}
+            onChange={setCPUGeneration}
+            value={cpuGeneration}
+            isDisabled={!cpuBrand}
           />
 
           <Select
@@ -146,7 +212,35 @@ const CalculatorForm = () => {
             placeholder="Select CPU"
             value={processor}
             onChange={setProcessor}
-            isDisabled={!brand || !generation}
+            isDisabled={!cpuBrand || !cpuGeneration}
+          />
+        </div>
+
+        <div className="flex flex-col gap-3 items-start mt-5">
+          <Label>GPU: </Label>
+          <Select
+            className="w-full"
+            options={gpuBrandOptions}
+            onChange={setGPUBrand}
+            value={gpuBrand}
+          />
+
+          <Select
+            className="w-full"
+            options={gpuGenerationOptions()}
+            placeholder="Select Generation"
+            onChange={setGPUGeneration}
+            value={gpuGeneration}
+            isDisabled={!gpuBrand}
+          />
+
+          <Select
+            className="w-full"
+            options={graphicCardsOptions()}
+            placeholder="Select CPU"
+            value={graphicCard}
+            onChange={setGraphicCard}
+            isDisabled={!gpuBrand || !gpuGeneration}
           />
         </div>
 
