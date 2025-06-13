@@ -1,19 +1,24 @@
+import { CalculatorSchemaType } from "./../components/form/CalculatorForm/calculatorSchema";
+
 export function calculateEnergyConsumed(
   body: CalculatorSchemaType,
   processor: { tdp: string } | null,
   graphicCard: { tdp: string } | null,
-  country: { wue: number; carbon_intensity: number } | null
+  country: { wue: string; carbon_intensity: string } | null
 ) {
   const time = body.time / 3600; // h
 
   const pue = body.PUE || 1;
 
-  const cpuTDP = parseInt(processor?.tdp?.replace(" W", "")) / 1000 || 0; // kw
-  const gpuTDP = parseInt(graphicCard?.tdp?.replace(" W", "")) / 1000 || 0; // kw
+  const cpuTDP = parseInt(processor!.tdp.replace(" W", "")) / 1000 || 0; // kw
+  const gpuTDP = parseInt(graphicCard!.tdp.replace(" W", "")) / 1000 || 0; // kw
 
   const onSiteWUE = body.onSiteWUE || 0;
 
-  const waterOffSiteWUE = country?.wue * 3.785 || 0; // L/kWh
+  let waterOffSiteWUE = 0;
+  if (country) {
+    waterOffSiteWUE = Number(country.wue) * 3.785 || 0; // L/kWh
+  }
 
   const carbon_intensity = Number(country?.carbon_intensity) / 1000 || 0;
 

@@ -54,13 +54,13 @@ const CalculatorForm = () => {
   const [processor, setProcessor] = useState<{
     value: string;
     label: string;
-    tdp: number;
+    tdp: string;
   } | null>(null);
 
   const [graphicCard, setGraphicCard] = useState<{
     value: string;
     label: string;
-    tdp: number;
+    tdp: string;
   } | null>(null);
 
   useEffect(() => {
@@ -164,8 +164,8 @@ const CalculatorForm = () => {
   const [country, setCountry] = useState<{
     value: number;
     label: string;
-    wue: number;
-    carbon_intensity: number;
+    wue: string;
+    carbon_intensity: string;
   } | null>(null);
 
   const [response, setResponse] = useState<{
@@ -270,7 +270,7 @@ const CalculatorForm = () => {
 
         <div className="my-10">
           <p>TDP = {processor?.tdp}</p>
-          <p>WUE = {country ? country.wue * 3.785 : ""}</p>
+          <p>WUE = {country ? Number(country.wue) * 3.785 : ""}</p>
           <p>Intensidade Carbônica = {country?.carbon_intensity}</p>
         </div>
 
