@@ -8,7 +8,7 @@ function App() {
 
       <div className="flex items-center justify-around my-20">
         <Form />
-        <div className="flex flex-col gap-5">
+        {/* <div className="flex flex-col gap-5">
           <p>
             Comparar a energia com lâmpadas convencionais - lampada de 80W -
             quanto tempo ela ficaria ligada?
@@ -22,7 +22,7 @@ function App() {
             Adicionar uma string para uso em publicações com o resumo dos
             resultados
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   );
