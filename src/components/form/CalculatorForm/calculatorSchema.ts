@@ -19,6 +19,13 @@ export const calculatorSchema = z.object({
     .refine((val) => !isNaN(val), {
       message: "PUE must be a number",
     }),
+  energyConsumed: z
+    .string()
+    .optional()
+    .transform((val) => (val ? Number(val) : 0))
+    .refine((val) => !isNaN(val), {
+      message: "Energy consumed must be a number",
+    }),
 });
 
 export type CalculatorSchemaType = z.infer<typeof calculatorSchema>;

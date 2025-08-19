@@ -175,81 +175,118 @@ const CalculatorForm = () => {
   } | null>(null);
 
   const handleCalculate = (body: CalculatorSchemaType) => {
-    setResponse(calculateEnergyConsumed(body, processor, graphicCard, country));
+    setResponse(
+      calculateEnergyConsumed(body, radioValue, processor, graphicCard, country)
+    );
   };
+
+  const [radioValue, setRadioValue] = useState("NÃO");
 
   return (
     <div>
+      <div>
+        <p className="text-lg mb-3">
+          Já sabe a energia consumida pelo sistema?
+          <label>
+            <input
+              type="radio"
+              name="myRadio"
+              value="SIM"
+              className="ml-3"
+              onClick={() => setRadioValue("SIM")}
+            />
+            SIM
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="myRadio"
+              value="NÃO"
+              className="ml-2"
+              defaultChecked={true}
+              onClick={() => setRadioValue("NÃO")}
+            />
+            NÃO
+          </label>
+        </p>
+      </div>
+
       <form onSubmit={handleSubmit(handleCalculate)} className="w-96 m-4">
-        <FormField
-          label="Time (s)"
-          placeholder="Enter time"
-          errorMessage={errors.time?.message}
-          {...register("time")}
-        />
+        {radioValue === "NÃO" && (
+          <div>
+            <FormField
+              label="Time (s)"
+              placeholder="Enter time"
+              errorMessage={errors.time?.message}
+              {...register("time")}
+            />
 
-        <div className="flex flex-col gap-3 items-start">
-          <Label>CPU: </Label>
-          <Select
-            className="w-full"
-            options={cpuBrandOptions}
-            onChange={setCPUBrand}
-            value={cpuBrand}
+            <div className="flex flex-col gap-3 items-start">
+              <Label>CPU: </Label>
+              <Select
+                className="w-full"
+                options={cpuBrandOptions}
+                onChange={setCPUBrand}
+                value={cpuBrand}
+              />
+
+              <Select
+                className="w-full"
+                options={cpuGenerationOptions()}
+                placeholder="Select Generation"
+                onChange={setCPUGeneration}
+                value={cpuGeneration}
+                isDisabled={!cpuBrand}
+              />
+
+              <Select
+                className="w-full"
+                options={processorsOptions()}
+                placeholder="Select CPU"
+                value={processor}
+                onChange={setProcessor}
+                isDisabled={!cpuBrand || !cpuGeneration}
+              />
+            </div>
+
+            <div className="flex flex-col gap-3 items-start mt-5">
+              <Label>GPU: </Label>
+              <Select
+                className="w-full"
+                options={gpuBrandOptions}
+                onChange={setGPUBrand}
+                value={gpuBrand}
+              />
+
+              <Select
+                className="w-full"
+                options={gpuGenerationOptions()}
+                placeholder="Select Generation"
+                onChange={setGPUGeneration}
+                value={gpuGeneration}
+                isDisabled={!gpuBrand}
+              />
+
+              <Select
+                className="w-full"
+                options={graphicCardsOptions()}
+                placeholder="Select CPU"
+                value={graphicCard}
+                onChange={setGraphicCard}
+                isDisabled={!gpuBrand || !gpuGeneration}
+              />
+            </div>
+          </div>
+        )}
+
+        {radioValue === "SIM" && (
+          <FormField
+            label="Energy Consumed (kWh)"
+            placeholder="Enter energy consumed"
+            errorMessage={errors.energyConsumed?.message}
+            {...register("energyConsumed")}
           />
-
-          <Select
-            className="w-full"
-            options={cpuGenerationOptions()}
-            placeholder="Select Generation"
-            onChange={setCPUGeneration}
-            value={cpuGeneration}
-            isDisabled={!cpuBrand}
-          />
-
-          <Select
-            className="w-full"
-            options={processorsOptions()}
-            placeholder="Select CPU"
-            value={processor}
-            onChange={setProcessor}
-            isDisabled={!cpuBrand || !cpuGeneration}
-          />
-        </div>
-
-        <div className="flex flex-col gap-3 items-start mt-5">
-          <Label>GPU: </Label>
-          <Select
-            className="w-full"
-            options={gpuBrandOptions}
-            onChange={setGPUBrand}
-            value={gpuBrand}
-          />
-
-          <Select
-            className="w-full"
-            options={gpuGenerationOptions()}
-            placeholder="Select Generation"
-            onChange={setGPUGeneration}
-            value={gpuGeneration}
-            isDisabled={!gpuBrand}
-          />
-
-          <Select
-            className="w-full"
-            options={graphicCardsOptions()}
-            placeholder="Select CPU"
-            value={graphicCard}
-            onChange={setGraphicCard}
-            isDisabled={!gpuBrand || !gpuGeneration}
-          />
-        </div>
-
-        <FormField
-          label="on-site WUE"
-          placeholder="Enter on-site WUE"
-          errorMessage={errors.onSiteWUE?.message}
-          {...register("onSiteWUE")}
-        />
+        )}
 
         <div className="flex gap-3 items-center">
           <Label>País </Label>
@@ -261,6 +298,15 @@ const CalculatorForm = () => {
           />
         </div>
 
+        <div>
+          <FormField
+            label="on-site WUE"
+            placeholder="Enter on-site WUE"
+            errorMessage={errors.onSiteWUE?.message}
+            {...register("onSiteWUE")}
+          />
+        </div>
+
         <FormField
           label="PUE"
           placeholder="Enter PUE"
@@ -269,7 +315,7 @@ const CalculatorForm = () => {
         />
 
         <div className="my-10">
-          <p>TDP = {processor?.tdp}</p>
+          {radioValue === "NÃO" && <p>TDP = {processor?.tdp}</p>}
           <p>WUE = {country ? Number(country.wue) * 3.785 : ""}</p>
           <p>Intensidade Carbônica = {country?.carbon_intensity}</p>
         </div>
@@ -294,7 +340,7 @@ const CalculatorForm = () => {
           <div className="flex flex-col gap-4 ">
             <p>
               {(() => {
-                const totalHours = Number(response?.energy_consumed) / 0.08;
+                const totalHours = Number(response?.energy_consumed) / 0.6; // 60Wh ou 0.6 kWh de uma lâmpada incandescente
                 const hours = Math.floor(totalHours);
                 const minutes = Math.round((totalHours - hours) * 60);
                 return `${hours} horas e ${minutes} minutos de uma lâmpada ligada`;

@@ -6,8 +6,9 @@ function App() {
     <>
       <Header />
 
-      <div className="flex items-center justify-around my-20">
+      <div className="flex items-center justify-around mt-5 mb-20">
         <Form />
+
         {/* <div className="flex flex-col gap-5">
           <p>
             Comparar a energia com lâmpadas convencionais - lampada de 80W -

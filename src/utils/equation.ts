@@ -2,18 +2,31 @@ import { CalculatorSchemaType } from "./../components/form/CalculatorForm/calcul
 
 export function calculateEnergyConsumed(
   body: CalculatorSchemaType,
+  radioValue: string,
   processor: { tdp: string } | null,
   graphicCard: { tdp: string } | null,
   country: { wue: string; carbon_intensity: string } | null
 ) {
-  const time = body.time / 3600; // h
+  let energy_consumed;
+  let onSiteWUE = 0;
+  let pue = 1;
 
-  const pue = body.PUE || 1;
+  if (radioValue === "NÃO") {
+    const time = body.time / 3600; // h
 
-  const cpuTDP = parseInt(processor!.tdp.replace(" W", "")) / 1000 || 0; // kw
-  const gpuTDP = parseInt(graphicCard!.tdp.replace(" W", "")) / 1000 || 0; // kw
+    const pue = body.PUE || 1;
 
-  const onSiteWUE = body.onSiteWUE || 0;
+    const cpuTDP = parseInt(processor!.tdp.replace(" W", "")) / 1000 || 0; // kw
+    const gpuTDP = parseInt(graphicCard!.tdp.replace(" W", "")) / 1000 || 0; // kw
+
+    onSiteWUE = body.onSiteWUE || 0;
+
+    energy_consumed = time * (cpuTDP + gpuTDP) * pue;
+  } else {
+    energy_consumed = body.energyConsumed || 0; // kWh
+    onSiteWUE = body.onSiteWUE || 0;
+    pue = body.PUE || 1;
+  }
 
   let waterOffSiteWUE = 0;
   if (country) {
@@ -22,15 +35,11 @@ export function calculateEnergyConsumed(
 
   const carbon_intensity = Number(country?.carbon_intensity) / 1000 || 0;
 
-  const energy_consumed = time * (cpuTDP + gpuTDP) * pue;
   const carbon_footprint = energy_consumed * carbon_intensity; // kgCO2e
   const water_consumed = energy_consumed * (onSiteWUE + waterOffSiteWUE * pue);
 
   console.log({
-    time,
     pue,
-    cpuTDP,
-    gpuTDP,
     onSiteWUE,
     waterOffSiteWUE,
     carbon_intensity,
