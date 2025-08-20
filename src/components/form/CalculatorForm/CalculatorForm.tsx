@@ -8,9 +8,10 @@ import processors from "../../../hardware/processors.json";
 import graphic_cards from "../../../hardware/graphic_cards.json";
 import countries from "../../../country/countries.json";
 
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Label } from "../Label";
-import { calculateEnergyConsumed } from "../../../utils/equation";
+import { Input } from "../Input";
+import { CalculatorContext } from "../../../context/CalculatorContext";
 
 const CalculatorForm = () => {
   const {
@@ -20,6 +21,8 @@ const CalculatorForm = () => {
   } = useForm<CalculatorSchemaType>({
     resolver: zodResolver(calculatorSchema),
   });
+
+  const context = useContext(CalculatorContext);
 
   const cpuBrandOptions = Object.keys(processors).map((brand) => ({
     value: brand,
@@ -168,140 +171,167 @@ const CalculatorForm = () => {
     carbon_intensity: string;
   } | null>(null);
 
-  const [response, setResponse] = useState<{
-    energy_consumed: number;
-    carbon_footprint: number;
-    water_consumed: number;
-  } | null>(null);
-
   const handleCalculate = (body: CalculatorSchemaType) => {
-    setResponse(
-      calculateEnergyConsumed(body, radioValue, processor, graphicCard, country)
+    context.calculateEnergyConsumed(
+      body,
+      knowsEnergyConsumed,
+      processor,
+      graphicCard,
+      country
     );
   };
 
-  const [radioValue, setRadioValue] = useState("NÃO");
+  const [knowsEnergyConsumed, setKnowsEnergyConsumed] = useState(false);
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div>
-        <p className="text-lg mb-3">
-          Já sabe a energia consumida pelo sistema?
-          <label>
-            <input
-              type="radio"
-              name="myRadio"
-              value="SIM"
-              className="ml-3"
-              onClick={() => setRadioValue("SIM")}
-            />
-            SIM
-          </label>
-          <label>
-            <input
-              type="radio"
-              name="myRadio"
-              value="NÃO"
-              className="ml-2"
-              defaultChecked={true}
-              onClick={() => setRadioValue("NÃO")}
-            />
-            NÃO
-          </label>
+      <div className="flex mb-6">
+        <p className="text-lg text-secondary mb-3">
+          Do you already know the energy consumed by the system?
         </p>
+        <label className="text-dark-grey text-lg">
+          <input
+            type="radio"
+            className="ml-3"
+            checked={knowsEnergyConsumed}
+            onClick={() => setKnowsEnergyConsumed(true)}
+          />{" "}
+          Yes
+        </label>
+        <label className="text-dark-grey text-lg">
+          <input
+            type="radio"
+            className="ml-2"
+            defaultChecked={true}
+            checked={!knowsEnergyConsumed}
+            onClick={() => setKnowsEnergyConsumed(false)}
+          />{" "}
+          No
+        </label>
       </div>
 
       <form onSubmit={handleSubmit(handleCalculate)} className="w-96 m-4">
-        {radioValue === "NÃO" && (
+        {!knowsEnergyConsumed && (
           <div>
-            <FormField
-              label="Time (s)"
-              placeholder="Enter time"
-              errorMessage={errors.time?.message}
-              {...register("time")}
-            />
+            <div className="flex items-center justify-between w-full gap-10 mb-4">
+              <div className="w-[950px]">
+                <Label>Tempo: (HH:MM:SS)</Label>
+              </div>
+              <div className="flex items-center gap-2">
+                <Input
+                  mask={{ mask: "__", replacement: { _: /[0-9]/ } }}
+                  {...register("hours")}
+                />
+                <p>:</p>
+                <Input
+                  mask={{ mask: "__", replacement: { _: /[0-9]/ } }}
+                  {...register("minutes")}
+                />
+                <p>:</p>
+                <Input
+                  mask={{ mask: "__", replacement: { _: /[0-9]/ } }}
+                  {...register("seconds")}
+                />
+              </div>
+            </div>
 
             <div className="flex flex-col gap-3 items-start">
-              <Label>CPU: </Label>
-              <Select
-                className="w-full"
-                options={cpuBrandOptions}
-                onChange={setCPUBrand}
-                value={cpuBrand}
-              />
+              <div className="flex w-full gap-3 items-center">
+                <Label>CPU: </Label>
+                <Select
+                  className="w-full"
+                  options={cpuBrandOptions}
+                  onChange={setCPUBrand}
+                  value={cpuBrand}
+                />
+              </div>
 
-              <Select
-                className="w-full"
-                options={cpuGenerationOptions()}
-                placeholder="Select Generation"
-                onChange={setCPUGeneration}
-                value={cpuGeneration}
-                isDisabled={!cpuBrand}
-              />
+              {cpuBrand && (
+                <Select
+                  className="w-full"
+                  options={cpuGenerationOptions()}
+                  placeholder="Select Generation"
+                  onChange={setCPUGeneration}
+                  value={cpuGeneration}
+                  isDisabled={!cpuBrand}
+                />
+              )}
 
-              <Select
-                className="w-full"
-                options={processorsOptions()}
-                placeholder="Select CPU"
-                value={processor}
-                onChange={setProcessor}
-                isDisabled={!cpuBrand || !cpuGeneration}
-              />
+              {cpuBrand && cpuGeneration && (
+                <Select
+                  className="w-full"
+                  options={processorsOptions()}
+                  placeholder="Select CPU"
+                  value={processor}
+                  onChange={setProcessor}
+                  isDisabled={!cpuBrand || !cpuGeneration}
+                />
+              )}
 
-              <button
-                className="hover:underline"
-                onClick={() => {
-                  setCPUBrand(null);
-                  setCPUGeneration(null);
-                  setProcessor(null);
-                }}
-              >
-                {"->"} limpar campos
-              </button>
+              {cpuBrand && (
+                <button
+                  className="hover:underline"
+                  onClick={() => {
+                    setCPUBrand(null);
+                    setCPUGeneration(null);
+                    setProcessor(null);
+                  }}
+                >
+                  <p className="text-dark-grey">{"->"} limpar campos</p>
+                </button>
+              )}
             </div>
 
             <div className="flex flex-col gap-3 items-start mt-5">
-              <Label>GPU: </Label>
-              <Select
-                className="w-full"
-                options={gpuBrandOptions}
-                onChange={setGPUBrand}
-                value={gpuBrand}
-              />
+              <div className="flex w-full gap-3 items-center">
+                <Label>GPU: </Label>
+                <Select
+                  className="w-full"
+                  options={gpuBrandOptions}
+                  onChange={setGPUBrand}
+                  value={gpuBrand}
+                />
+              </div>
 
-              <Select
-                className="w-full"
-                options={gpuGenerationOptions()}
-                placeholder="Select Generation"
-                onChange={setGPUGeneration}
-                value={gpuGeneration}
-                isDisabled={!gpuBrand}
-              />
+              {gpuBrand && (
+                <Select
+                  className="w-full"
+                  options={gpuGenerationOptions()}
+                  placeholder="Select Generation"
+                  onChange={setGPUGeneration}
+                  value={gpuGeneration}
+                  isDisabled={!gpuBrand}
+                />
+              )}
 
-              <Select
-                className="w-full"
-                options={graphicCardsOptions()}
-                placeholder="Select CPU"
-                value={graphicCard}
-                onChange={setGraphicCard}
-                isDisabled={!gpuBrand || !gpuGeneration}
-              />
+              {gpuBrand && gpuGeneration && (
+                <Select
+                  className="w-full"
+                  options={graphicCardsOptions()}
+                  placeholder="Select CPU"
+                  value={graphicCard}
+                  onChange={setGraphicCard}
+                  isDisabled={!gpuBrand || !gpuGeneration}
+                />
+              )}
 
-              <button
-                className="hover:underline"
-                onClick={() => {
-                  setGPUBrand(null);
-                  setGPUGeneration(null);
-                  setGraphicCard(null);
-                }}
-              >
-                {"->"} limpar campos
-              </button>
+              {gpuBrand && (
+                <button
+                  className="hover:underline"
+                  onClick={() => {
+                    setGPUBrand(null);
+                    setGPUGeneration(null);
+                    setGraphicCard(null);
+                  }}
+                >
+                  <p className="text-dark-grey">{"->"} limpar campos</p>
+                </button>
+              )}
             </div>
           </div>
         )}
 
-        {radioValue === "SIM" && (
+        {knowsEnergyConsumed && (
           <FormField
             label="Energy Consumed (kWh)"
             placeholder="Enter energy consumed"
@@ -344,37 +374,6 @@ const CalculatorForm = () => {
           Calcular
         </button>
       </form>
-
-      {response && (
-        <div className="flex items-center gap-10">
-          <div className="flex flex-col gap-4 ">
-            <p>Gasto Energético = {response?.energy_consumed.toFixed(3)} kWh</p>
-            <p>
-              Emissão de Co2 = {response?.carbon_footprint.toFixed(3)} kg/CO2e
-            </p>
-            <p>Água Consumida = {response?.water_consumed.toFixed(3)} L</p>
-          </div>
-
-          <div className="flex flex-col gap-4 ">
-            <p>
-              {(() => {
-                const totalHours = Number(response?.energy_consumed) / 0.6; // 60Wh ou 0.6 kWh de uma lâmpada incandescente
-                const hours = Math.floor(totalHours);
-                const minutes = Math.round((totalHours - hours) * 60);
-                return `${hours} horas e ${minutes} minutos de uma lâmpada ligada`;
-              })()}
-            </p>
-            <p>
-              {(Number(response?.carbon_footprint) / 0.096).toFixed(2)} km
-              rodados de um carro médio brasileiro
-            </p>
-            <p>
-              {Math.floor(Number(response?.water_consumed) / 0.5)} garrafas de
-              500ml
-            </p>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

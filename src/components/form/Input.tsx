@@ -12,7 +12,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
 
     return (
       <input
-        className="p-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+        className="w-full p-2 border border-grey rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
         {...props}
         ref={(el) => {
           if (mask) maskRef.current = el;

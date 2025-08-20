@@ -1,11 +1,23 @@
 import { z } from "zod";
 
 export const calculatorSchema = z.object({
-  time: z
+  hours: z
     .string()
     .transform((val) => Number(val))
     .refine((val) => !isNaN(val), {
-      message: "Time must be a number",
+      message: "Hours must be a number",
+    }),
+  minutes: z
+    .string()
+    .transform((val) => Number(val))
+    .refine((val) => !isNaN(val), {
+      message: "Minutes must be a number",
+    }),
+  seconds: z
+    .string()
+    .transform((val) => Number(val))
+    .refine((val) => !isNaN(val), {
+      message: "Seconds must be a number",
     }),
   onSiteWUE: z
     .string()

@@ -2,7 +2,7 @@ import { CalculatorSchemaType } from "./../components/form/CalculatorForm/calcul
 
 export function calculateEnergyConsumed(
   body: CalculatorSchemaType,
-  radioValue: string,
+  knowsEnergyConsumed: boolean,
   processor: { tdp: string } | null,
   graphicCard: { tdp: string } | null,
   country: { wue: string; carbon_intensity: string } | null
@@ -13,8 +13,11 @@ export function calculateEnergyConsumed(
   let cpuTDP = 0;
   let gpuTDP = 0;
 
-  if (radioValue === "NÃO") {
-    const time = body.time / 3600; // h
+  console.log(knowsEnergyConsumed, body);
+
+  if (!knowsEnergyConsumed) {
+    const time =
+      (body.hours * 60 * 60 + body.minutes * 60 + body.seconds) / 3600; // h
 
     const pue = body.PUE || 1;
 
@@ -28,6 +31,15 @@ export function calculateEnergyConsumed(
     onSiteWUE = body.onSiteWUE || 0;
 
     energy_consumed = time * (cpuTDP + gpuTDP) * pue;
+
+    console.log({
+      time,
+      cpuTDP,
+      gpuTDP,
+      onSiteWUE,
+      pue,
+      energy_consumed,
+    });
   } else {
     energy_consumed = body.energyConsumed || 0; // kWh
     onSiteWUE = body.onSiteWUE || 0;
