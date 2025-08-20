@@ -183,7 +183,7 @@ const CalculatorForm = () => {
   const [radioValue, setRadioValue] = useState("NÃO");
 
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center">
       <div>
         <p className="text-lg mb-3">
           Já sabe a energia consumida pelo sistema?
@@ -247,6 +247,17 @@ const CalculatorForm = () => {
                 onChange={setProcessor}
                 isDisabled={!cpuBrand || !cpuGeneration}
               />
+
+              <button
+                className="hover:underline"
+                onClick={() => {
+                  setCPUBrand(null);
+                  setCPUGeneration(null);
+                  setProcessor(null);
+                }}
+              >
+                {"->"} limpar campos
+              </button>
             </div>
 
             <div className="flex flex-col gap-3 items-start mt-5">
@@ -275,6 +286,17 @@ const CalculatorForm = () => {
                 onChange={setGraphicCard}
                 isDisabled={!gpuBrand || !gpuGeneration}
               />
+
+              <button
+                className="hover:underline"
+                onClick={() => {
+                  setGPUBrand(null);
+                  setGPUGeneration(null);
+                  setGraphicCard(null);
+                }}
+              >
+                {"->"} limpar campos
+              </button>
             </div>
           </div>
         )}
@@ -300,23 +322,23 @@ const CalculatorForm = () => {
 
         <FormField
           label="on-site WUE"
-          placeholder="Enter on-site WUE"
+          placeholder="on-site WUE (Default: 0)"
           errorMessage={errors.onSiteWUE?.message}
           {...register("onSiteWUE")}
         />
 
         <FormField
           label="PUE"
-          placeholder="Enter PUE"
+          placeholder="PUE (Default: 1)"
           errorMessage={errors.PUE?.message}
           {...register("PUE")}
         />
 
-        <div className="my-10">
+        {/* <div className="my-10">
           {radioValue === "NÃO" && <p>TDP = {processor?.tdp}</p>}
           <p>WUE = {country ? Number(country.wue) * 3.785 : ""}</p>
           <p>Intensidade Carbônica = {country?.carbon_intensity}</p>
-        </div>
+        </div> */}
 
         <button className="bg-light-green py-3 w-full rounded font-bold text-lg">
           Calcular
@@ -326,13 +348,11 @@ const CalculatorForm = () => {
       {response && (
         <div className="flex items-center gap-10">
           <div className="flex flex-col gap-4 ">
+            <p>Gasto Energético = {response?.energy_consumed.toFixed(3)} kWh</p>
             <p>
-              Gasto Energético (kWh) = {response?.energy_consumed.toFixed(3)}
+              Emissão de Co2 = {response?.carbon_footprint.toFixed(3)} kg/CO2e
             </p>
-            <p>
-              Emissão de Co2 (kgCO2e) = {response?.carbon_footprint.toFixed(3)}
-            </p>
-            <p>Água Consumida (L) = {response?.water_consumed.toFixed(3)}</p>
+            <p>Água Consumida = {response?.water_consumed.toFixed(3)} L</p>
           </div>
 
           <div className="flex flex-col gap-4 ">
