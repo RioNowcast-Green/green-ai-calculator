@@ -288,7 +288,7 @@ const CalculatorForm = () => {
           />
         )}
 
-        <div className="flex gap-3 items-center">
+        <div className="flex gap-3 my-4 items-center">
           <Label>País </Label>
           <Select
             className="w-full"
@@ -298,14 +298,12 @@ const CalculatorForm = () => {
           />
         </div>
 
-        <div>
-          <FormField
-            label="on-site WUE"
-            placeholder="Enter on-site WUE"
-            errorMessage={errors.onSiteWUE?.message}
-            {...register("onSiteWUE")}
-          />
-        </div>
+        <FormField
+          label="on-site WUE"
+          placeholder="Enter on-site WUE"
+          errorMessage={errors.onSiteWUE?.message}
+          {...register("onSiteWUE")}
+        />
 
         <FormField
           label="PUE"

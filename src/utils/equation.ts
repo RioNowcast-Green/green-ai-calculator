@@ -10,14 +10,20 @@ export function calculateEnergyConsumed(
   let energy_consumed;
   let onSiteWUE = 0;
   let pue = 1;
+  let cpuTDP = 0;
+  let gpuTDP = 0;
 
   if (radioValue === "NÃO") {
     const time = body.time / 3600; // h
 
     const pue = body.PUE || 1;
 
-    const cpuTDP = parseInt(processor!.tdp.replace(" W", "")) / 1000 || 0; // kw
-    const gpuTDP = parseInt(graphicCard!.tdp.replace(" W", "")) / 1000 || 0; // kw
+    if (processor) {
+      cpuTDP = parseInt(processor!.tdp.replace(" W", "")) / 1000 || 0; // kw
+    }
+    if (graphicCard) {
+      gpuTDP = parseInt(graphicCard!.tdp.replace(" W", "")) / 1000 || 0; // kw
+    }
 
     onSiteWUE = body.onSiteWUE || 0;
 
