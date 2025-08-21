@@ -3,6 +3,10 @@ import { useCalculator } from "../hooks/useCalculator";
 import { CalculatorSchemaType } from "../components/form/CalculatorForm/calculatorSchema";
 
 interface CalculatorContextData {
+  time: { hours: number; minutes: number; seconds: number } | null;
+  cpuInfo: string | null;
+  gpuInfo: string | null;
+  country: string;
   energy_consumed: number;
   carbon_footprint: number;
   water_consumed: number;
@@ -23,6 +27,10 @@ export const CalculatorProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   const {
+    time,
+    cpuInfo,
+    gpuInfo,
+    country,
     energy_consumed,
     carbon_footprint,
     water_consumed,
@@ -32,6 +40,10 @@ export const CalculatorProvider: React.FC<{ children: React.ReactNode }> = ({
   return (
     <CalculatorContext.Provider
       value={{
+        time,
+        cpuInfo,
+        gpuInfo,
+        country,
         energy_consumed,
         carbon_footprint,
         water_consumed,

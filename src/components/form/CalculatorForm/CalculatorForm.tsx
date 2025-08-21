@@ -175,7 +175,9 @@ const CalculatorForm = () => {
     context.calculateEnergyConsumed(
       body,
       knowsEnergyConsumed,
+      cpuBrand,
       processor,
+      gpuBrand,
       graphicCard,
       country
     );
@@ -185,32 +187,35 @@ const CalculatorForm = () => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="flex mb-6">
-        <p className="text-lg text-secondary mb-3">
-          Do you already know the energy consumed by the system?
-        </p>
-        <label className="text-dark-grey text-lg">
-          <input
-            type="radio"
-            className="ml-3"
-            checked={knowsEnergyConsumed}
-            onClick={() => setKnowsEnergyConsumed(true)}
-          />{" "}
-          Yes
-        </label>
-        <label className="text-dark-grey text-lg">
-          <input
-            type="radio"
-            className="ml-2"
-            defaultChecked={true}
-            checked={!knowsEnergyConsumed}
-            onClick={() => setKnowsEnergyConsumed(false)}
-          />{" "}
-          No
-        </label>
-      </div>
-
       <form onSubmit={handleSubmit(handleCalculate)} className="w-96 m-4">
+        <div className="flex w-full mb-6">
+          <p className="text-lg text-secondary mb-3">
+            Do you already know the energy consumed by the system?
+          </p>
+          <label className="text-dark-grey text-lg">
+            <input
+              type="radio"
+              className="ml-3"
+              checked={knowsEnergyConsumed}
+              onClick={() => {
+                setKnowsEnergyConsumed(true);
+              }}
+            />{" "}
+            Yes
+          </label>
+          <label className="text-dark-grey text-lg">
+            <input
+              type="radio"
+              className="ml-2"
+              defaultChecked={true}
+              checked={!knowsEnergyConsumed}
+              onClick={() => {
+                setKnowsEnergyConsumed(false);
+              }}
+            />{" "}
+            No
+          </label>
+        </div>
         {!knowsEnergyConsumed && (
           <div>
             <div className="flex items-center justify-between w-full gap-10 mb-4">
@@ -341,7 +346,7 @@ const CalculatorForm = () => {
         )}
 
         <div className="flex gap-3 my-4 items-center">
-          <Label>País </Label>
+          <Label>Country:</Label>
           <Select
             className="w-full"
             options={countriesOptions}
@@ -354,6 +359,7 @@ const CalculatorForm = () => {
           label="on-site WUE"
           placeholder="on-site WUE (Default: 0)"
           errorMessage={errors.onSiteWUE?.message}
+          helperMessage="Water Usage Effectiveness (WUE) is a measure of how efficiently a data center uses water"
           {...register("onSiteWUE")}
         />
 
@@ -361,6 +367,7 @@ const CalculatorForm = () => {
           label="PUE"
           placeholder="PUE (Default: 1)"
           errorMessage={errors.PUE?.message}
+          helperMessage="Power Usage Effectiveness (PUE) is a measure of how efficiently a data center uses energy"
           {...register("PUE")}
         />
 

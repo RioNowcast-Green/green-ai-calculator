@@ -2,6 +2,11 @@ import { useState } from "react";
 import { CalculatorSchemaType } from "./../components/form/CalculatorForm/calculatorSchema";
 
 export function useCalculator() {
+  const [time, setTime] =
+    useState({ hours: 0, minutes: 0, seconds: 0 }) || null;
+  const [cpuInfo, setCpuInfo] = useState<string | null>(null);
+  const [gpuInfo, setGpuInfo] = useState<string | null>(null);
+  const [country, setCountry] = useState("");
   const [energy_consumed, setEnergyConsumed] = useState(0);
   const [carbon_footprint, setCarbonFootprint] = useState(0);
   const [water_consumed, setWaterConsumed] = useState(0);
@@ -9,9 +14,11 @@ export function useCalculator() {
   const calculateEnergyConsumed = (
     body: CalculatorSchemaType,
     knowsEnergyConsumed: boolean,
-    processor: { tdp: string } | null,
-    graphicCard: { tdp: string } | null,
-    country: { wue: string; carbon_intensity: string } | null
+    cpuBrand: { label: string } | null,
+    processor: { label: string; tdp: string } | null,
+    gpuBrand: { label: string } | null,
+    graphicCard: { label: string; tdp: string } | null,
+    country: { label: string; wue: string; carbon_intensity: string } | null
   ) => {
     let onSiteWUE = 0;
     let pue = 1;
@@ -24,19 +31,29 @@ export function useCalculator() {
       const time =
         (body.hours * 60 * 60 + body.minutes * 60 + body.seconds) / 3600; // h
 
+      setTime({
+        hours: body.hours,
+        minutes: body.minutes,
+        seconds: body.seconds,
+      });
+
       pue = body.PUE || 1;
 
       if (processor) {
         cpuTDP = parseInt(processor.tdp.replace(" W", "")) / 1000 || 0; // kw
+        setCpuInfo(`${cpuBrand?.label} ${processor.label}`);
       }
       if (graphicCard) {
         gpuTDP = parseInt(graphicCard.tdp.replace(" W", "")) / 1000 || 0; // kw
+        setGpuInfo(`${gpuBrand?.label} ${graphicCard.label}`);
       }
 
       onSiteWUE = body.onSiteWUE || 0;
 
       energy = time * (cpuTDP + gpuTDP) * pue;
     } else {
+      console.log("aqui");
+      setTime({ hours: 0, minutes: 0, seconds: 0 });
       energy = body.energyConsumed; // kWh
       onSiteWUE = body.onSiteWUE || 0;
       pue = body.PUE || 1;
@@ -52,11 +69,14 @@ export function useCalculator() {
     const carbon = energy * carbon_intensity; // kgCO2e
     const water = energy * (onSiteWUE + waterOffSiteWUE * pue); // L
 
+    setCountry(country!.label);
     setEnergyConsumed(energy);
     setCarbonFootprint(carbon);
     setWaterConsumed(water);
 
     return {
+      time,
+      country,
       energy_consumed: energy,
       carbon_footprint: carbon,
       water_consumed: water,
@@ -64,6 +84,10 @@ export function useCalculator() {
   };
 
   return {
+    time,
+    cpuInfo,
+    gpuInfo,
+    country,
     energy_consumed,
     carbon_footprint,
     water_consumed,
