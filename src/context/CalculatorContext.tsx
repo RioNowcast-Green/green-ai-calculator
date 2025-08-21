@@ -1,6 +1,6 @@
 import React, { createContext } from "react";
 import { useCalculator } from "../hooks/useCalculator";
-import { CalculatorSchemaType } from "../components/form/CalculatorForm/calculatorSchema";
+// import { CalculatorSchemaType } from "../components/form/CalculatorForm/calculatorSchema";
 
 interface CalculatorContextData {
   time: { hours: number; minutes: number; seconds: number } | null;
@@ -11,10 +11,20 @@ interface CalculatorContextData {
   carbon_footprint: number;
   water_consumed: number;
   calculateEnergyConsumed: (
-    body: CalculatorSchemaType,
+    body: {
+      hours: number;
+      minutes: number;
+      seconds: number;
+      onSiteWUE: number;
+      PUE: number;
+      energyConsumed: number;
+    },
     knowsEnergyConsumed: boolean,
     processor: { tdp: string } | null,
     graphicCard: { tdp: string } | null,
+    cpuBrand: { label: string } | null,
+    gpuBrand: { label: string } | null,
+
     country: { wue: string; carbon_intensity: string } | null
   ) => void;
 }
@@ -47,6 +57,7 @@ export const CalculatorProvider: React.FC<{ children: React.ReactNode }> = ({
         energy_consumed,
         carbon_footprint,
         water_consumed,
+        // @ts-expect-error arrumar depois
         calculateEnergyConsumed,
       }}
     >

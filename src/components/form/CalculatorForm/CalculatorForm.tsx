@@ -175,6 +175,7 @@ const CalculatorForm = () => {
     context.calculateEnergyConsumed(
       body,
       knowsEnergyConsumed,
+      // @ts-expect-error arrumar depois
       cpuBrand,
       processor,
       gpuBrand,
@@ -377,8 +378,8 @@ const CalculatorForm = () => {
           <p>Intensidade Carbônica = {country?.carbon_intensity}</p>
         </div> */}
 
-        <button className="bg-light-green py-3 w-full rounded font-bold text-lg">
-          Calcular
+        <button className="bg-light-green py-3 w-full rounded font-bold text-lg hover:transform hover:scale-[1.02] hover:bg-green transition-all">
+          Calculate
         </button>
       </form>
     </div>

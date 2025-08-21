@@ -114,8 +114,8 @@ export const Home = () => {
                   , with an estimated footprint of{" "}
                   {context.carbon_footprint.toFixed(2)} kgCO₂e and{" "}
                   {context.water_consumed.toFixed(2)} L of water in{" "}
-                  {context.country}, as calculated with the Carbon Calculator
-                  (UFF, 2025).
+                  {context.country}, as calculated with the Carbon and Water
+                  Footprint Calculator (UFF, 2025).
                 </p>
               </div>
             </div>
