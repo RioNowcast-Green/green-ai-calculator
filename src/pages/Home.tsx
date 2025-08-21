@@ -41,7 +41,7 @@ export const Home = () => {
             <ResultCard
               img={waterIcon}
               label={"Water Footprint"}
-              result={`${context.carbon_footprint.toFixed(2)} kgCO2e`}
+              result={`${context.water_consumed.toFixed(2)} L`}
             />
             <ResultCard
               img={lightBulbIcon}
