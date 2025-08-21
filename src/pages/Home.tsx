@@ -88,7 +88,6 @@ export const Home = () => {
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-3">
                 <h1 className="text-xl font-bold">How to Cite</h1>
-                {console.log(context)}
                 <p>
                   This experiment{" "}
                   {context.time &&
