@@ -70,7 +70,7 @@ export const Home = () => {
                 <div className="flex flex-col gap-3">
                   <h1 className="text-xl font-bold">About Us</h1>
                   <p>
-                    The Ethical and Sustainable AI Group (ESAI) at the Federal
+                    The Ethical and Sustainable AI Group at the Federal
                     Fluminense University explores responsible and
                     environmentally conscious approaches to Artificial
                     Intelligence.
