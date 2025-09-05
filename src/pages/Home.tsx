@@ -59,7 +59,7 @@ export const Home = () => {
               img={bottleIcon}
               label={"Bottle of Water"}
               result={`${Math.floor(
-                Number(context.water_consumed.toFixed(2)) / 2
+                Number(context.water_consumed.toFixed(2)) * 2
               )} units`}
             />
           </div>
