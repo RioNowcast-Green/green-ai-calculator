@@ -188,12 +188,15 @@ const CalculatorForm = () => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <form onSubmit={handleSubmit(handleCalculate)} className="w-96 m-4">
+      <form
+        onSubmit={handleSubmit(handleCalculate)}
+        className="w-80 m-0 md:w-96 md:m-4"
+      >
         <div className="flex w-full mb-6">
-          <p className="text-lg text-secondary mb-3">
+          <p className="text-sm md:text-lg text-secondary mb-3">
             Do you already know the energy consumed by the system?
           </p>
-          <label className="text-dark-grey text-lg">
+          <label className="text-dark-grey text-sm md:text-lg">
             <input
               type="radio"
               className="ml-3"
@@ -204,7 +207,7 @@ const CalculatorForm = () => {
             />{" "}
             Yes
           </label>
-          <label className="text-dark-grey text-lg">
+          <label className="text-dark-grey text-sm md:text-lg">
             <input
               type="radio"
               className="ml-2"
@@ -378,7 +381,7 @@ const CalculatorForm = () => {
           <p>Intensidade Carbônica = {country?.carbon_intensity}</p>
         </div> */}
 
-        <button className="bg-light-green py-3 w-full rounded font-bold text-lg hover:transform hover:scale-[1.02] hover:bg-green transition-all">
+        <button className="bg-light-green py-3 w-full rounded font-bold text-sm md:text-lg hover:transform hover:scale-[1.02] hover:bg-green transition-all">
           Calculate
         </button>
       </form>

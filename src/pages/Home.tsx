@@ -21,13 +21,13 @@ export const Home = () => {
   const minutes = Math.round((hoursDecimal - hours) * 60);
 
   return (
-    <>
+    <div>
       <Header />
-      <div className="flex items-center justify-around mt-5 mb-20">
+      <div className="flex flex-wrap items-center justify-around mt-5 mb-20">
         <CalculatorForm />
 
-        <div className="flex flex-col items-center  gap-10 max-w-[800px]">
-          <div className="flex flex-wrap justify-between gap-5 max-w-[900px]">
+        <div className="flex flex-col items-center mx-5  gap-10 max-w-[800px]">
+          <div className="flex flex-wrap justify-around gap-5 max-w-[900px]">
             <ResultCard
               img={energyIcon}
               label={"Energy Consumed"}
@@ -65,20 +65,51 @@ export const Home = () => {
           </div>
           <div className="rounded-lg py-3 px-10 shadow-lg flex flex-col ">
             <div className="flex flex-col gap-5">
-              <div className="flex gap-10">
-                <img src={logo} className="w-40" />
+              <div className="md:flex gap-10">
+                <img src={logo} className="w-40 hidden md:block" />
                 <div className="flex flex-col gap-3">
-                  <h1 className="text-xl font-bold">About Us</h1>
-                  <p>
-                    The Ethical and Sustainable AI Group at the Federal
-                    Fluminense University explores responsible and
-                    environmentally conscious approaches to Artificial
-                    Intelligence.
+                  <h1 className="text-xl font-bold text-center md:text-left">
+                    About Us
+                  </h1>
+                  <img src={logo} className="md:hidden w-32 md:w-40 m-auto" />
+                  <p className="text-sm md:text-base">
+                    The{" "}
+                    <a
+                      href="https://ia-etica.uff.br/nucleo-de-ia-etica/"
+                      className="text-link underline hover:text-link hover:underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Ethical and Sustainable AI
+                    </a>{" "}
+                    Group at the Federal Fluminense University explores
+                    responsible and environmentally conscious approaches to
+                    Artificial Intelligence.
                   </p>
-                  <p>
+                  <p className="text-sm md:text-base">
                     This Work was developed by{" "}
-                    <strong>Gabriel B. Breder</strong> and{" "}
-                    <strong>Mariza Ferro</strong>.
+                    <strong>
+                      <a
+                        href="https://www.linkedin.com/in/gabriel-breder/"
+                        className="text-link underline hover:text-link hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Gabriel B. Breder
+                      </a>
+                    </strong>{" "}
+                    and{" "}
+                    <strong>
+                      <a
+                        href="https://www.linkedin.com/in/mariza-ferro-9b4568112/"
+                        className="text-link underline hover:text-link hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Mariza Ferro
+                      </a>
+                    </strong>
+                    .
                   </p>
                 </div>
               </div>
@@ -88,7 +119,7 @@ export const Home = () => {
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-3">
                 <h1 className="text-xl font-bold">How to Cite</h1>
-                <p>
+                <p className="text-sm md:text-base">
                   This experiment{" "}
                   {context.time &&
                   context.time.hours +
@@ -121,6 +152,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
