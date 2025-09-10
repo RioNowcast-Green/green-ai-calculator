@@ -222,11 +222,17 @@ const CalculatorForm = () => {
         </div>
         {!knowsEnergyConsumed && (
           <div>
-            <div className="flex items-center justify-between w-full gap-10 mb-4">
-              <div className="w-[950px]">
-                <Label>Tempo: (HH:MM:SS)</Label>
+            <div className="flex items-center justify-between w-full mb-4">
+              <div className="w-[800px]">
+                <Label>Tempo: </Label>
+                <Label>(DD HH:MM:SS)</Label>
               </div>
               <div className="flex items-center gap-2">
+                <Input
+                  mask={{ mask: "__", replacement: { _: /[0-9]/ } }}
+                  {...register("days")}
+                />
+                <p></p>
                 <Input
                   mask={{ mask: "__", replacement: { _: /[0-9]/ } }}
                   {...register("hours")}

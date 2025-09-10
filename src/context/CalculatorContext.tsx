@@ -3,7 +3,12 @@ import { useCalculator } from "../hooks/useCalculator";
 // import { CalculatorSchemaType } from "../components/form/CalculatorForm/calculatorSchema";
 
 interface CalculatorContextData {
-  time: { hours: number; minutes: number; seconds: number } | null;
+  time: {
+    days: number;
+    hours: number;
+    minutes: number;
+    seconds: number;
+  } | null;
   cpuInfo: string | null;
   gpuInfo: string | null;
   country: string;

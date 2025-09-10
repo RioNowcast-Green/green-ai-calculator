@@ -3,7 +3,7 @@ import { CalculatorSchemaType } from "./../components/form/CalculatorForm/calcul
 
 export function useCalculator() {
   const [time, setTime] =
-    useState({ hours: 0, minutes: 0, seconds: 0 }) || null;
+    useState({ days: 0, hours: 0, minutes: 0, seconds: 0 }) || null;
   const [cpuInfo, setCpuInfo] = useState<string | null>(null);
   const [gpuInfo, setGpuInfo] = useState<string | null>(null);
   const [country, setCountry] = useState("");
@@ -29,9 +29,14 @@ export function useCalculator() {
 
     if (!knowsEnergyConsumed) {
       const time =
-        (body.hours * 60 * 60 + body.minutes * 60 + body.seconds) / 3600; // h
+        (body.days * 24 * 60 * 60 +
+          body.hours * 60 * 60 +
+          body.minutes * 60 +
+          body.seconds) /
+        3600; // h
 
       setTime({
+        days: body.days,
         hours: body.hours,
         minutes: body.minutes,
         seconds: body.seconds,
@@ -52,8 +57,7 @@ export function useCalculator() {
 
       energy = time * (cpuTDP + gpuTDP) * pue;
     } else {
-      console.log("aqui");
-      setTime({ hours: 0, minutes: 0, seconds: 0 });
+      setTime({ days: 0, hours: 0, minutes: 0, seconds: 0 });
       energy = body.energyConsumed; // kWh
       onSiteWUE = body.onSiteWUE || 0;
       pue = body.PUE || 1;

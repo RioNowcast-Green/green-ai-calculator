@@ -1,6 +1,12 @@
 import { z } from "zod";
 
 export const calculatorSchema = z.object({
+  days: z
+    .string()
+    .transform((val) => Number(val))
+    .refine((val) => !isNaN(val), {
+      message: "Days must be a number",
+    }),
   hours: z
     .string()
     .transform((val) => Number(val))

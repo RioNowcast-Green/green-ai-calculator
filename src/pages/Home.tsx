@@ -26,7 +26,7 @@ export const Home = () => {
       <div className="flex flex-wrap items-center justify-around mt-5 mb-20">
         <CalculatorForm />
 
-        <div className="flex flex-col items-center mx-5  gap-10 max-w-[800px]">
+        <div className="flex flex-col items-center mx-2 md:mx-5  gap-10 max-w-[800px] mt-4 md:mt-0">
           <div className="flex flex-wrap justify-around gap-5 max-w-[900px]">
             <ResultCard
               img={energyIcon}
