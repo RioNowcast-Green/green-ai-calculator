@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header className="bg-green p-3 text-center">
       <h1 className="text-2xl bold font-primary">
-        wAIter - Carbon and Water Usage Estimator
+        wAIter: Serving Awareness - Carbon and Water Usage Estimator
       </h1>
     </header>
   );
