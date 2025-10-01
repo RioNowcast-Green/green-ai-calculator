@@ -65,6 +65,49 @@ export const Home = () => {
           </div>
           <div className="rounded-lg py-3 px-10 shadow-lg flex flex-col ">
             <div className="flex flex-col gap-5">
+              <div className="flex flex-col gap-3">
+                <h1 className="text-xl font-bold">How to Cite</h1>
+                <p className="text-sm md:text-base">
+                  This experiment{" "}
+                  {context.time &&
+                  context.time.hours +
+                    context.time.minutes +
+                    context.time.seconds >
+                    0 ? (
+                    <>
+                      ran for {context.time?.hours} hours and{" "}
+                      {context.time?.minutes} minutes on{" "}
+                      {context.cpuInfo && context.gpuInfo ? (
+                        <>
+                          {context.cpuInfo} and {context.gpuInfo}
+                        </>
+                      ) : (
+                        context.cpuInfo || context.gpuInfo
+                      )}{" "}
+                      consuming {context.energy_consumed.toFixed(2)} kWh
+                    </>
+                  ) : (
+                    <>consumed {context.energy_consumed.toFixed(2)} kWh</>
+                  )}
+                  , with an estimated footprint of{" "}
+                  {context.carbon_footprint.toFixed(2)} kgCO₂e and{" "}
+                  {context.water_consumed.toFixed(2)} L of water in{" "}
+                  {context.country}, as calculated with wAIter (beta version)
+                  <a
+                    href="https://zenodo.org/records/17238927"
+                    className="text-link underline hover:text-link hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    (Breder & Ferro, 2025)
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-lg py-3 px-10 shadow-lg flex flex-col ">
+            <div className="flex flex-col gap-5">
               <div className="md:flex gap-10">
                 <img src={logo} className="w-40 hidden md:block" />
                 <div className="flex flex-col gap-3">
@@ -112,41 +155,6 @@ export const Home = () => {
                     .
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="rounded-lg py-3 px-10 shadow-lg flex flex-col ">
-            <div className="flex flex-col gap-5">
-              <div className="flex flex-col gap-3">
-                <h1 className="text-xl font-bold">How to Cite</h1>
-                <p className="text-sm md:text-base">
-                  This experiment{" "}
-                  {context.time &&
-                  context.time.hours +
-                    context.time.minutes +
-                    context.time.seconds >
-                    0 ? (
-                    <>
-                      ran for {context.time?.hours} hours and{" "}
-                      {context.time?.minutes} minutes on{" "}
-                      {context.cpuInfo && context.gpuInfo ? (
-                        <>
-                          {context.cpuInfo} and {context.gpuInfo}
-                        </>
-                      ) : (
-                        context.cpuInfo || context.gpuInfo
-                      )}{" "}
-                      consuming {context.energy_consumed.toFixed(2)} kWh
-                    </>
-                  ) : (
-                    <>consumed {context.energy_consumed.toFixed(2)} kWh</>
-                  )}
-                  , with an estimated footprint of{" "}
-                  {context.carbon_footprint.toFixed(2)} kgCO₂e and{" "}
-                  {context.water_consumed.toFixed(2)} L of water in{" "}
-                  {context.country}, as calculated with wAIter (beta version)
-                  (Breder & Ferro, 2025).
-                </p>
               </div>
             </div>
           </div>
