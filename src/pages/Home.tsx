@@ -94,7 +94,7 @@ export const Home = () => {
                   {context.water_consumed.toFixed(2)} L of water in{" "}
                   {context.country}, as calculated with wAIter (beta version)
                   <a
-                    href="https://zenodo.org/records/17247278"
+                    href="https://doi.org/10.5281/zenodo.17238926"
                     className="text-link underline hover:text-link hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
